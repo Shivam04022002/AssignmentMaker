@@ -1,0 +1,40 @@
+// HandWrite native image input for handwriting samples (Android library, autolinked).
+apply plugin: 'com.android.library'
+
+def builtInKotlin = providers.gradleProperty("android.builtInKotlin").orNull
+if (com.android.Version.ANDROID_GRADLE_PLUGIN_VERSION.tokenize('.')[0].toInteger() <= 8 ||
+        builtInKotlin == null || !builtInKotlin.toBoolean()) {
+    apply plugin: 'kotlin-android'
+}
+
+def ext(name, fallback) {
+    return rootProject.ext.has(name) ? rootProject.ext.get(name) : fallback
+}
+
+android {
+    namespace "com.handwrite.samples"
+    compileSdkVersion ext('compileSdkVersion', 36)
+
+    defaultConfig {
+        minSdkVersion ext('minSdkVersion', 24)
+        targetSdkVersion ext('targetSdkVersion', 36)
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.facebook.react:react-android"
+}

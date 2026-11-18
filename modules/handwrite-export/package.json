@@ -1,0 +1,14 @@
+{
+  "name": "handwrite-export",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HandWrite's in-app native exporter: draws rendered page views into PDF (vector) or PNG/JPG and shares the files.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "android",
+    "ios",
+    "handwrite-export.podspec"
+  ],
+  "license": "UNLICENSED"
+}

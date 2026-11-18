@@ -1,0 +1,327 @@
+{
+  "note": "SYNTHETIC pages plus one REAL page (handwriting_03, kept separate under \"real\"). In a turned photo any aligned unit is a false match. before = Phase 8 (no page, orientation or rule-foot steps).",
+  "synthetic": {
+    "latin — upright": {
+      "before": {
+        "aligned": 105,
+        "falseMatches": null,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 105,
+        "falseMatches": null,
+        "usable": true,
+        "verdict": "across",
+        "advice": null
+      }
+    },
+    "latin — turned a quarter clockwise": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "sideways",
+        "advice": "Turn the photo a quarter turn anticlockwise (to the left) so the lines run left to right, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "latin — turned a quarter anticlockwise": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "sideways",
+        "advice": "Turn the photo a quarter turn clockwise (to the right) so the lines run left to right, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "latin — upside down": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "upside-down",
+        "advice": "Turn the photo half a turn (180°) so the writing reads the right way up, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "devanagari — upright": {
+      "before": {
+        "aligned": 28,
+        "falseMatches": null,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 28,
+        "falseMatches": null,
+        "usable": true,
+        "verdict": "across",
+        "advice": null
+      }
+    },
+    "devanagari — turned a quarter clockwise": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "sideways",
+        "advice": "Turn the photo a quarter turn anticlockwise (to the left) so the lines run left to right, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "devanagari — turned a quarter anticlockwise": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "sideways",
+        "advice": "Turn the photo a quarter turn clockwise (to the right) so the lines run left to right, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "devanagari — upside down": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "upside-down",
+        "advice": "Turn the photo half a turn (180°) so the writing reads the right way up, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "simple — upright": {
+      "before": {
+        "aligned": 26,
+        "falseMatches": null,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 26,
+        "falseMatches": null,
+        "usable": true,
+        "verdict": "across",
+        "advice": null
+      }
+    },
+    "simple — turned a quarter clockwise": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "sideways",
+        "advice": "Turn the photo a quarter turn anticlockwise (to the left) so the lines run left to right, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "simple — turned a quarter anticlockwise": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "sideways",
+        "advice": "Turn the photo a quarter turn clockwise (to the right) so the lines run left to right, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "simple — upside down": {
+      "before": {
+        "aligned": 5,
+        "falseMatches": 5,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "upside-down",
+        "advice": "Turn the photo half a turn (180°) so the writing reads the right way up, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "touching — upright": {
+      "before": {
+        "aligned": 16,
+        "falseMatches": null,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 16,
+        "falseMatches": null,
+        "usable": true,
+        "verdict": "across",
+        "advice": null
+      }
+    },
+    "touching — turned a quarter clockwise": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "sideways",
+        "advice": "Turn the photo a quarter turn anticlockwise (to the left) so the lines run left to right, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "touching — turned a quarter anticlockwise": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "sideways",
+        "advice": "Turn the photo a quarter turn clockwise (to the right) so the lines run left to right, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "touching — upside down": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "upside-down",
+        "advice": "Turn the photo half a turn (180°) so the writing reads the right way up, or retake the photo holding the phone the same way up as the page."
+      }
+    }
+  },
+  "real": {
+    "handwriting_03 — upright": {
+      "before": {
+        "aligned": 219,
+        "falseMatches": null,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 219,
+        "falseMatches": null,
+        "usable": true,
+        "verdict": "across",
+        "advice": null
+      }
+    },
+    "handwriting_03 — turned a quarter clockwise": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "sideways",
+        "advice": "Turn the photo a quarter turn so the lines of writing run left to right and read the right way up, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "handwriting_03 — turned a quarter anticlockwise": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "sideways",
+        "advice": "Turn the photo a quarter turn so the lines of writing run left to right and read the right way up, or retake the photo holding the phone the same way up as the page."
+      }
+    },
+    "handwriting_03 — upside down": {
+      "before": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": true,
+        "verdict": "unknown",
+        "advice": null
+      },
+      "after": {
+        "aligned": 0,
+        "falseMatches": 0,
+        "usable": false,
+        "verdict": "upside-down",
+        "advice": "Turn the photo half a turn (180°) so the writing reads the right way up, or retake the photo holding the phone the same way up as the page."
+      }
+    }
+  }
+}

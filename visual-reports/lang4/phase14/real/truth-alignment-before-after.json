@@ -1,0 +1,59 @@
+{
+  "note": "REAL pages scored against hand-annotated word boxes (__tests__/realTruth). before = Phase 13 code, after = Phase 14 flat-region fix. The before run used the first annotation of marketing, (right edge 325; corrected to 331 after a zoomed check), so one comma counted as elsewhere there.",
+  "before": {
+    "handwriting_03.png": {
+      "alignedRight": 62,
+      "alignedWrong": [
+        "Market"
+      ],
+      "ambiguousOnTheirWord": 46,
+      "ambiguousElsewhere": 12,
+      "missing": 5,
+      "unitsRight": 220,
+      "unitsWrong": 1,
+      "glyphsInTheirWord": 135,
+      "glyphsElsewhere": [
+        ", in marketing,"
+      ]
+    },
+    "handwriting_02.png": {
+      "alignedRight": 54,
+      "alignedWrong": [
+        "Q1."
+      ],
+      "ambiguousOnTheirWord": 22,
+      "ambiguousElsewhere": 37,
+      "missing": 5,
+      "unitsRight": 0,
+      "unitsWrong": 0,
+      "glyphsInTheirWord": 0,
+      "glyphsElsewhere": []
+    }
+  },
+  "after": {
+    "handwriting_03.png": {
+      "alignedRight": 62,
+      "alignedWrong": [],
+      "ambiguousOnTheirWord": 46,
+      "ambiguousElsewhere": 12,
+      "missing": 6,
+      "unitsRight": 221,
+      "unitsWrong": 0,
+      "glyphsInTheirWord": 136,
+      "glyphsElsewhere": []
+    },
+    "handwriting_02.png": {
+      "alignedRight": 67,
+      "alignedWrong": [
+        "Q1."
+      ],
+      "ambiguousOnTheirWord": 22,
+      "ambiguousElsewhere": 22,
+      "missing": 7,
+      "unitsRight": 0,
+      "unitsWrong": 0,
+      "glyphsInTheirWord": 0,
+      "glyphsElsewhere": []
+    }
+  }
+}

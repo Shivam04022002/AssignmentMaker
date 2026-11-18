@@ -1,0 +1,70 @@
+{
+  "note": "REAL page reference/handwriting_03.png. No ground truth; counts only. Profiles are DIAGNOSTIC (coverage requirements off; the app refuses them).",
+  "phase10": {
+    "forms": {
+      "a": [
+        5,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        2,
+        1,
+        1
+      ],
+      "e": [
+        1,
+        1
+      ],
+      "o": [
+        8,
+        2,
+        1
+      ]
+    }
+  },
+  "phase11": {
+    "forms": {
+      "a": [
+        9,
+        4,
+        1
+      ],
+      "t": [
+        3,
+        1
+      ],
+      "e": [
+        2
+      ],
+      "o": [
+        8,
+        2,
+        1,
+        1
+      ]
+    }
+  },
+  "extraction": {
+    "phase10": {
+      "extracted": 133,
+      "rejected": {
+        "not-aligned": 532,
+        "neighbour-uncertain": 76,
+        "trace-unfaithful": 9,
+        "outside-band": 1
+      }
+    },
+    "phase11": {
+      "extracted": 136,
+      "rejected": {
+        "not-aligned": 530,
+        "neighbour-uncertain": 74,
+        "counter-unresolved": 8,
+        "metrics-inconsistent": 1,
+        "outside-band": 2
+      }
+    }
+  }
+}

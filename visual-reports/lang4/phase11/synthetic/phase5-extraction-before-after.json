@@ -1,0 +1,35 @@
+{
+  "note": "SYNTHETIC Phase 5 extraction bench (geometric pseudo-glyphs, plain letterforms) against truth: before = Phase 10 extraction, after = Phase 11.",
+  "before": [
+    "latin            extracted  69/69 rejected {} | mean dist 0.016 xh, completeness 1.000 | off-truth 0",
+    "latin-xh18       extracted  64/69 rejected {\"trace-unfaithful\":1,\"neighbour-uncertain\":2,\"not-aligned\":2} | mean dist 0.023 xh, completeness 0.999 | off-truth 0",
+    "latin-xh36       extracted  68/69 rejected {\"trace-unfaithful\":1} | mean dist 0.012 xh, completeness 1.000 | off-truth 0",
+    "latin-blur1      extracted  67/69 rejected {\"trace-unfaithful\":2} | mean dist 0.015 xh, completeness 0.998 | off-truth 0",
+    "latin-blur3      extracted   0/69 rejected {\"not-aligned\":66,\"neighbour-uncertain\":3} | mean dist NaN xh, completeness NaN | off-truth 0",
+    "latin-touch      extracted   0/69 rejected {\"not-aligned\":62,\"neighbour-uncertain\":7} | mean dist NaN xh, completeness NaN | off-truth 0",
+    "latin-skew3      extracted  68/69 rejected {\"trace-unfaithful\":1} | mean dist 0.018 xh, completeness 1.000 | off-truth 0",
+    "latin-noise      extracted  69/69 rejected {} | mean dist 0.017 xh, completeness 1.000 | off-truth 0",
+    "latin-lowc       extracted  68/69 rejected {\"trace-unfaithful\":1} | mean dist 0.017 xh, completeness 1.000 | off-truth 0",
+    "latin-faint      extracted   0/69 rejected {\"image-unusable\":69} | mean dist NaN xh, completeness NaN | off-truth 0",
+    "hindi            extracted  29/30 rejected {\"marks-inconsistent\":1} | mean dist 0.018 xh, completeness 1.000 | off-truth 0",
+    "hindi-tight      extracted  30/30 rejected {} | mean dist 0.018 xh, completeness 1.000 | off-truth 0",
+    "hindi-skew2      extracted  29/30 rejected {\"marks-inconsistent\":1} | mean dist 0.019 xh, completeness 0.999 | off-truth 0",
+    "mixed            extracted  35/35 rejected {} | mean dist 0.018 xh, completeness 1.000 | off-truth 0"
+  ],
+  "after": [
+    "latin            extracted  69/69 rejected {} | mean dist 0.014 xh, completeness 1.000 | off-truth 0",
+    "latin-xh18       extracted  64/69 rejected {\"trace-unfaithful\":1,\"neighbour-uncertain\":2,\"not-aligned\":2} | mean dist 0.019 xh, completeness 1.000 | off-truth 0",
+    "latin-xh36       extracted  68/69 rejected {\"trace-unfaithful\":1} | mean dist 0.012 xh, completeness 1.000 | off-truth 0",
+    "latin-blur1      extracted  67/69 rejected {\"trace-unfaithful\":2} | mean dist 0.015 xh, completeness 0.998 | off-truth 0",
+    "latin-blur3      extracted   0/69 rejected {\"not-aligned\":66,\"neighbour-uncertain\":3} | mean dist NaN xh, completeness NaN | off-truth 0",
+    "latin-touch      extracted   0/69 rejected {\"not-aligned\":62,\"neighbour-uncertain\":7} | mean dist NaN xh, completeness NaN | off-truth 0",
+    "latin-skew3      extracted  69/69 rejected {} | mean dist 0.016 xh, completeness 1.000 | off-truth 0",
+    "latin-noise      extracted  69/69 rejected {} | mean dist 0.014 xh, completeness 1.000 | off-truth 0",
+    "latin-lowc       extracted  68/69 rejected {\"trace-unfaithful\":1} | mean dist 0.013 xh, completeness 1.000 | off-truth 0",
+    "latin-faint      extracted   0/69 rejected {\"image-unusable\":69} | mean dist NaN xh, completeness NaN | off-truth 0",
+    "hindi            extracted  29/30 rejected {\"marks-inconsistent\":1} | mean dist 0.014 xh, completeness 1.000 | off-truth 0",
+    "hindi-tight      extracted  30/30 rejected {} | mean dist 0.014 xh, completeness 1.000 | off-truth 0",
+    "hindi-skew2      extracted  29/30 rejected {\"marks-inconsistent\":1} | mean dist 0.017 xh, completeness 1.000 | off-truth 0",
+    "mixed            extracted  35/35 rejected {} | mean dist 0.014 xh, completeness 1.000 | off-truth 0"
+  ]
+}

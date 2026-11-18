@@ -1,0 +1,167 @@
+{
+  "environment": "Node v22.16.0, win32; desktop CPU; NOT Hermes / a phone",
+  "samples": [
+    {
+      "slot": 1,
+      "photo": "2000×1500",
+      "ms": 1439,
+      "stages": {
+        "page": 278,
+        "normalise": 56,
+        "threshold": 101,
+        "deskew": 27,
+        "rules": 164,
+        "segment": 83,
+        "quality": 129,
+        "align": 52,
+        "extract": 547
+      },
+      "peakAboveBaselineMB": 26.2,
+      "page": "page",
+      "extracted": 67
+    },
+    {
+      "slot": 2,
+      "photo": "2000×1500",
+      "ms": 1382,
+      "stages": {
+        "page": 243,
+        "normalise": 45,
+        "threshold": 88,
+        "deskew": 54,
+        "rules": 195,
+        "segment": 111,
+        "quality": 116,
+        "align": 128,
+        "extract": 399
+      },
+      "peakAboveBaselineMB": 19.8,
+      "page": "page",
+      "extracted": 75
+    },
+    {
+      "slot": 3,
+      "photo": "2000×1500",
+      "ms": 1213,
+      "stages": {
+        "page": 239,
+        "normalise": 71,
+        "threshold": 79,
+        "deskew": 47,
+        "rules": 201,
+        "segment": 90,
+        "quality": 144,
+        "align": 15,
+        "extract": 326
+      },
+      "peakAboveBaselineMB": 35.7,
+      "page": "page",
+      "extracted": 89
+    },
+    {
+      "slot": 4,
+      "photo": "2000×1500",
+      "ms": 1221,
+      "stages": {
+        "page": 161,
+        "normalise": 26,
+        "threshold": 51,
+        "deskew": 30,
+        "rules": 173,
+        "segment": 15,
+        "quality": 88,
+        "align": 108,
+        "extract": 568
+      },
+      "peakAboveBaselineMB": 29.5,
+      "page": "page",
+      "extracted": 141
+    },
+    {
+      "slot": 5,
+      "photo": "2000×1500",
+      "ms": 1337,
+      "stages": {
+        "page": 175,
+        "normalise": 34,
+        "threshold": 34,
+        "deskew": 36,
+        "rules": 179,
+        "segment": 80,
+        "quality": 138,
+        "align": 65,
+        "extract": 596
+      },
+      "peakAboveBaselineMB": 11,
+      "page": "page",
+      "extracted": 178
+    }
+  ],
+  "generateMs": 401,
+  "profileStatus": "insufficient",
+  "requirements": [
+    [
+      "latin-lowercase",
+      true,
+      1,
+      ""
+    ],
+    [
+      "latin-uppercase",
+      false,
+      0.577,
+      "15 of 26 capitals A–Z observed (58 %); at least 75 % are needed. Missing: C D E F G H I K M O P"
+    ],
+    [
+      "latin-confidence",
+      true,
+      0.652,
+      ""
+    ],
+    [
+      "devanagari-consonants",
+      true,
+      1,
+      ""
+    ],
+    [
+      "devanagari-prompt",
+      true,
+      1,
+      ""
+    ],
+    [
+      "devanagari-confidence",
+      true,
+      0.517,
+      ""
+    ]
+  ],
+  "rejected": {
+    "extraction:neighbour-uncertain": 24,
+    "extraction:not-aligned": 40,
+    "extraction:trace-unfaithful": 5,
+    "extraction:marks-inconsistent": 18
+  },
+  "paginationProfile": "complete synthetic profile from Phase 13 (prof10-p13new)",
+  "profileBytes": 358847,
+  "profileUnits": 225,
+  "pagination": [
+    {
+      "characters": 1000,
+      "pages": 1,
+      "medianMs": 6
+    },
+    {
+      "characters": 5000,
+      "pages": 4,
+      "medianMs": 16
+    },
+    {
+      "characters": 20000,
+      "pages": 16,
+      "medianMs": 43
+    }
+  ],
+  "lineLayoutMs": 0.3
+}

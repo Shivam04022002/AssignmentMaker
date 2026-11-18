@@ -1,0 +1,70 @@
+{
+ "handwriting_03": {
+  "truth": {
+   "extracted": 136,
+   "considered": 751
+  },
+  "words": {
+   "extracted": 136,
+   "considered": 749,
+   "sameLabel": 136,
+   "wrongLabel": 0,
+   "unmatched": 0,
+   "keptOfTruth": 1,
+   "alignedWords": 62,
+   "expectedWords": 126
+  },
+  "page": {
+   "extracted": 136,
+   "considered": 751,
+   "sameLabel": 136,
+   "wrongLabel": 0,
+   "unmatched": 0,
+   "keptOfTruth": 1,
+   "alignedWords": 62,
+   "expectedWords": 126
+  }
+ },
+ "handwriting_02": {
+  "truth": {
+   "extracted": 0,
+   "considered": 658
+  },
+  "words": {
+   "extracted": 0,
+   "considered": 643,
+   "sameLabel": 0,
+   "wrongLabel": 0,
+   "unmatched": 0,
+   "keptOfTruth": 0,
+   "alignedWords": 60,
+   "expectedWords": 120
+  },
+  "page": {
+   "extracted": 0,
+   "considered": 671,
+   "sameLabel": 0,
+   "wrongLabel": 0,
+   "unmatched": 0,
+   "keptOfTruth": 0,
+   "alignedWords": 70,
+   "expectedWords": 115
+  }
+ },
+ "handwriting_01": {
+  "truth": {
+   "extracted": 0,
+   "considered": 685
+  },
+  "page": {
+   "extracted": 0,
+   "considered": 695,
+   "sameLabel": 0,
+   "wrongLabel": 0,
+   "unmatched": 0,
+   "keptOfTruth": 0,
+   "alignedWords": 0,
+   "expectedWords": 123
+  }
+ }
+}

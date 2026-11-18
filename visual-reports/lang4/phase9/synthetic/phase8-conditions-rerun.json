@@ -1,0 +1,81 @@
+{
+  "note": "The Phase 8 synthetic conditions re-run with the Phase 9 code (same fixtures as phase8/synthetic/conditions.json \"after\").",
+  "cases": {
+    "notebook (pale rules under the writing)": {
+      "units": 69,
+      "alignedCorrect": 69,
+      "alignedWrong": 0,
+      "extracted": 67,
+      "usable": true,
+      "issues": []
+    },
+    "notebook, Hindi": {
+      "units": 19,
+      "alignedCorrect": 19,
+      "alignedWrong": 0,
+      "extracted": 18,
+      "usable": true,
+      "issues": []
+    },
+    "objects around the page": {
+      "units": 69,
+      "alignedCorrect": 69,
+      "alignedWrong": 0,
+      "extracted": 69,
+      "usable": true,
+      "issues": []
+    },
+    "notebook + objects + light gradient": {
+      "units": 69,
+      "alignedCorrect": 69,
+      "alignedWrong": 0,
+      "extracted": 67,
+      "usable": true,
+      "issues": []
+    },
+    "perspective 8%": {
+      "units": 69,
+      "alignedCorrect": 63,
+      "alignedWrong": 0,
+      "extracted": 57,
+      "usable": true,
+      "issues": []
+    },
+    "perspective 15%": {
+      "units": 69,
+      "alignedCorrect": 52,
+      "alignedWrong": 0,
+      "extracted": 47,
+      "usable": true,
+      "issues": []
+    },
+    "low resolution 40%": {
+      "units": 69,
+      "alignedCorrect": 0,
+      "alignedWrong": 0,
+      "extracted": 0,
+      "usable": false,
+      "issues": [
+        "too-small"
+      ]
+    },
+    "sideways, no orientation tag": {
+      "units": 69,
+      "alignedCorrect": 0,
+      "alignedWrong": 0,
+      "extracted": 0,
+      "usable": false,
+      "issues": [
+        "sideways"
+      ]
+    },
+    "clean (reference)": {
+      "units": 69,
+      "alignedCorrect": 69,
+      "alignedWrong": 0,
+      "extracted": 69,
+      "usable": true,
+      "issues": []
+    }
+  }
+}

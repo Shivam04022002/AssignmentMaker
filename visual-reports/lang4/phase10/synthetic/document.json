@@ -1,0 +1,109 @@
+{
+  "pages": [
+    {
+      "number": 1,
+      "sheet": 0,
+      "chunk": 0,
+      "lines": 10,
+      "start": 0,
+      "end": 432
+    },
+    {
+      "number": 2,
+      "sheet": 1,
+      "chunk": 0,
+      "lines": 1,
+      "start": 433,
+      "end": 477
+    }
+  ],
+  "unsupported": [
+    {
+      "start": 47,
+      "end": 48,
+      "text": ":",
+      "reason": "not-learned"
+    },
+    {
+      "start": 128,
+      "end": 130,
+      "text": "दि",
+      "reason": "missing"
+    },
+    {
+      "start": 130,
+      "end": 133,
+      "text": "याँ",
+      "reason": "missing"
+    },
+    {
+      "start": 135,
+      "end": 137,
+      "text": "मा",
+      "reason": "missing"
+    },
+    {
+      "start": 137,
+      "end": 139,
+      "text": "रे",
+      "reason": "missing"
+    },
+    {
+      "start": 140,
+      "end": 142,
+      "text": "दे",
+      "reason": "missing"
+    },
+    {
+      "start": 147,
+      "end": 149,
+      "text": "जी",
+      "reason": "missing"
+    },
+    {
+      "start": 152,
+      "end": 154,
+      "text": "रे",
+      "reason": "missing"
+    },
+    {
+      "start": 154,
+      "end": 156,
+      "text": "खा",
+      "reason": "missing"
+    },
+    {
+      "start": 277,
+      "end": 280,
+      "text": "हिं",
+      "reason": "missing"
+    },
+    {
+      "start": 280,
+      "end": 282,
+      "text": "दी",
+      "reason": "missing"
+    },
+    {
+      "start": 302,
+      "end": 303,
+      "text": "@",
+      "reason": "missing"
+    },
+    {
+      "start": 304,
+      "end": 305,
+      "text": "#",
+      "reason": "missing"
+    },
+    {
+      "start": 306,
+      "end": 307,
+      "text": "₹",
+      "reason": "not-learned"
+    }
+  ],
+  "notes": [
+    "natural corrections (overwritten or struck letters) are not drawn in a personal handwriting"
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "note": "SYNTHETIC pseudo-glyph Hindi pages (no fonts, nobody's writing) scored against fixture truth. before = Phase 11 extraction and Devanagari alignment; after = Phase 12. defective = an extracted cluster that is incomplete (< 0.9 of its true centre-lines), carries foreign ink (> 0.1), or lost a dot mark; wrong = on the wrong columns. marksApart: dot marks clear of other strokes; the default fixture fuses some.",
+  "before": {
+    "clean (default marks: fused)": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 37,
+      "wrong": 0,
+      "defective": [
+        "हिं(c1.00 x0.00 dot lost)",
+        "में(c1.00 x0.00 dot lost)"
+      ],
+      "rejected": {
+        "marks-inconsistent": 1
+      },
+      "issues": []
+    },
+    "clean": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 37,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {
+        "marks-inconsistent": 1
+      },
+      "issues": []
+    },
+    "ruled notebook": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 38,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    },
+    "skew 3°": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 36,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {
+        "marks-inconsistent": 2
+      },
+      "issues": []
+    },
+    "small (x-height 14, pen 2.6)": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 38,
+      "wrong": 0,
+      "defective": [
+        "ढ़(c1.00 x0.00 dot lost)",
+        "दुः(c0.62 x0.00 dot lost)",
+        "ख(c1.00 x0.24)",
+        "क़(c1.00 x0.00 dot lost)"
+      ],
+      "rejected": {},
+      "issues": []
+    },
+    "tight clusters (touching)": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 38,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    },
+    "blur + noise": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 38,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    },
+    "Hindi alphabet prompt": {
+      "devaUnits": 75,
+      "alignedRight": 75,
+      "alignedWrong": 0,
+      "extracted": 68,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {
+        "marks-inconsistent": 7
+      },
+      "issues": []
+    },
+    "mixed English / Hindi": {
+      "devaUnits": 10,
+      "alignedRight": 10,
+      "alignedWrong": 0,
+      "extracted": 10,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    },
+    "mixed, ruled, small": {
+      "devaUnits": 10,
+      "alignedRight": 10,
+      "alignedWrong": 0,
+      "extracted": 10,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    }
+  },
+  "after": {
+    "clean (default marks: fused)": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 32,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {
+        "marks-merged": 3,
+        "neighbour-uncertain": 2,
+        "marks-inconsistent": 1
+      },
+      "issues": []
+    },
+    "clean": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 37,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {
+        "marks-inconsistent": 1
+      },
+      "issues": []
+    },
+    "ruled notebook": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 38,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    },
+    "skew 3°": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 36,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {
+        "marks-inconsistent": 2
+      },
+      "issues": []
+    },
+    "small (x-height 14, pen 2.6)": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 31,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {
+        "neighbour-uncertain": 4,
+        "marks-merged": 3
+      },
+      "issues": []
+    },
+    "tight clusters (touching)": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 38,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    },
+    "blur + noise": {
+      "devaUnits": 38,
+      "alignedRight": 38,
+      "alignedWrong": 0,
+      "extracted": 38,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    },
+    "Hindi alphabet prompt": {
+      "devaUnits": 75,
+      "alignedRight": 75,
+      "alignedWrong": 0,
+      "extracted": 75,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    },
+    "mixed English / Hindi": {
+      "devaUnits": 10,
+      "alignedRight": 10,
+      "alignedWrong": 0,
+      "extracted": 10,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    },
+    "mixed, ruled, small": {
+      "devaUnits": 10,
+      "alignedRight": 10,
+      "alignedWrong": 0,
+      "extracted": 10,
+      "wrong": 0,
+      "defective": [],
+      "rejected": {},
+      "issues": []
+    }
+  }
+}

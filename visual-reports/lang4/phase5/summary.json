@@ -1,0 +1,153 @@
+{
+  "latin-clean": {
+    "extracted": 69,
+    "considered": 69,
+    "rejected": {},
+    "meanDistanceToTruthXh": 0.016,
+    "maxDistanceToTruthXh": 0.037,
+    "minCompleteness": 1,
+    "meanCompleteness": 1,
+    "analysisMs": 682,
+    "extractMs": 327,
+    "quality": 0.991,
+    "usable": true,
+    "deskew": 0,
+    "tiles": 69
+  },
+  "hindi-clean": {
+    "extracted": 29,
+    "considered": 30,
+    "rejected": {
+      "marks-inconsistent": 1
+    },
+    "meanDistanceToTruthXh": 0.018,
+    "maxDistanceToTruthXh": 0.022,
+    "minCompleteness": 1,
+    "meanCompleteness": 1,
+    "analysisMs": 414,
+    "extractMs": 104,
+    "quality": 0.992,
+    "usable": true,
+    "deskew": 0,
+    "tiles": 30
+  },
+  "hindi-tight-clusters": {
+    "extracted": 30,
+    "considered": 30,
+    "rejected": {},
+    "meanDistanceToTruthXh": 0.018,
+    "maxDistanceToTruthXh": 0.023,
+    "minCompleteness": 1,
+    "meanCompleteness": 1,
+    "analysisMs": 292,
+    "extractMs": 102,
+    "quality": 0.992,
+    "usable": true,
+    "deskew": 0,
+    "tiles": 30
+  },
+  "mixed-scripts": {
+    "extracted": 35,
+    "considered": 35,
+    "rejected": {},
+    "meanDistanceToTruthXh": 0.018,
+    "maxDistanceToTruthXh": 0.025,
+    "minCompleteness": 1,
+    "meanCompleteness": 1,
+    "analysisMs": 262,
+    "extractMs": 74,
+    "quality": 0.991,
+    "usable": true,
+    "deskew": 0,
+    "tiles": 35
+  },
+  "latin-skewed-3deg": {
+    "extracted": 68,
+    "considered": 69,
+    "rejected": {
+      "trace-unfaithful": 1
+    },
+    "meanDistanceToTruthXh": 0.018,
+    "maxDistanceToTruthXh": 0.038,
+    "minCompleteness": 0.98,
+    "meanCompleteness": 1,
+    "analysisMs": 322,
+    "extractMs": 122,
+    "quality": 0.991,
+    "usable": true,
+    "deskew": 3,
+    "tiles": 69
+  },
+  "latin-small-xh18": {
+    "extracted": 64,
+    "considered": 69,
+    "rejected": {
+      "trace-unfaithful": 1,
+      "neighbour-uncertain": 2,
+      "not-aligned": 2
+    },
+    "meanDistanceToTruthXh": 0.023,
+    "maxDistanceToTruthXh": 0.041,
+    "minCompleteness": 0.98,
+    "meanCompleteness": 0.999,
+    "analysisMs": 109,
+    "extractMs": 59,
+    "quality": 0.991,
+    "usable": true,
+    "deskew": 0,
+    "tiles": 69
+  },
+  "latin-mild-blur": {
+    "extracted": 67,
+    "considered": 69,
+    "rejected": {
+      "trace-unfaithful": 2
+    },
+    "meanDistanceToTruthXh": 0.015,
+    "maxDistanceToTruthXh": 0.028,
+    "minCompleteness": 0.93,
+    "meanCompleteness": 0.998,
+    "analysisMs": 272,
+    "extractMs": 122,
+    "quality": 0.991,
+    "usable": true,
+    "deskew": 0,
+    "tiles": 69
+  },
+  "latin-touching-rejected": {
+    "extracted": 1,
+    "considered": 69,
+    "rejected": {
+      "not-aligned": 61,
+      "neighbour-uncertain": 7
+    },
+    "meanDistanceToTruthXh": 0.037,
+    "maxDistanceToTruthXh": 0.037,
+    "minCompleteness": 1,
+    "meanCompleteness": 1,
+    "analysisMs": 139,
+    "extractMs": 2,
+    "quality": 0.991,
+    "usable": true,
+    "deskew": 0,
+    "tiles": 69
+  },
+  "latin-blurred-rejected": {
+    "extracted": 0,
+    "considered": 69,
+    "rejected": {
+      "not-aligned": 66,
+      "neighbour-uncertain": 3
+    },
+    "meanDistanceToTruthXh": null,
+    "maxDistanceToTruthXh": null,
+    "minCompleteness": null,
+    "meanCompleteness": null,
+    "analysisMs": 143,
+    "extractMs": 1,
+    "quality": 0.982,
+    "usable": true,
+    "deskew": 0,
+    "tiles": 69
+  }
+}

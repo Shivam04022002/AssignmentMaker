@@ -1,0 +1,13 @@
+{
+  "note": "Letter boundaries inside six joined (cursive) words of the REAL page reference/handwriting_02.png, for the Phase 15 cursive feasibility check. x in ORIGINAL image pixels: where one letter ends and the next begins (the middle of the joining stroke), in order. Annotations only: no pixels.",
+  "method": "Read off by eye from 7× enlarged crops with a 10-pixel ruler. Expected precision about ±1.5 px (the page's x-height is about 9 px). Annotated by the assistant, not by an independent human. One more word (“survival”) was tried and could not be annotated with confidence: its u / r / v / i strokes are not clearly separable even by eye.",
+  "page": "handwriting_02.png",
+  "words": [
+    { "text": "important", "expectedLine": 0, "boundaries": [282, 299, 310, 319, 334, 344, 353, 364] },
+    { "text": "business", "expectedLine": 0, "boundaries": [445, 455, 465, 470, 480, 489, 499] },
+    { "text": "enterprise", "expectedLine": 0, "boundaries": [538, 549, 556, 565, 574, 589, 601, 609, 620] },
+    { "text": "understand", "expectedLine": 0, "boundaries": [707, 717, 730, 738, 747, 756, 768, 780, 792] },
+    { "text": "growth", "expectedLine": 5, "boundaries": [333, 342, 352, 369, 380] },
+    { "text": "market", "expectedLine": 15, "boundaries": [609, 619, 629, 644, 654] }
+  ]
+}

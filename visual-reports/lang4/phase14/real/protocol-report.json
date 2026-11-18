@@ -1,0 +1,1971 @@
+{
+  "set": "reference",
+  "manifestErrors": [],
+  "missingSlots": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "samples": {
+    "handwriting-03": {
+      "slot": 5,
+      "scripts": [
+        "Latn"
+      ],
+      "capture": {
+        "lighting": "even",
+        "paper": "ruled",
+        "writingSize": "small",
+        "skewDeg": 0.6,
+        "perspective": false
+      },
+      "quality": {
+        "score": 0.951,
+        "usable": true,
+        "issues": []
+      },
+      "page": {
+        "status": "full-frame",
+        "rectified": false
+      },
+      "orientation": "across",
+      "skew": {
+        "angle": 0.6,
+        "applied": true
+      },
+      "lines": 18,
+      "alignment": {
+        "words": {
+          "aligned": 62,
+          "ambiguous": 58,
+          "missing": 6,
+          "lowQuality": 0
+        },
+        "units": {
+          "aligned": 221,
+          "ambiguous": 489,
+          "missing": 41,
+          "lowQuality": 0,
+          "unsupported": 0
+        }
+      },
+      "extraction": {
+        "considered": 751,
+        "extracted": 136,
+        "yield": 0.181,
+        "rejected": {
+          "not-aligned": 530,
+          "metrics-inconsistent": 1,
+          "neighbour-uncertain": 74,
+          "counter-unresolved": 8,
+          "outside-band": 2
+        }
+      },
+      "byFeature": {
+        "latin-capital": {
+          "units": 15,
+          "aligned": 1,
+          "extracted": 1,
+          "rejected": {
+            "not-aligned": 14
+          },
+          "yield": 0.067
+        },
+        "punctuation": {
+          "units": 27,
+          "aligned": 6,
+          "extracted": 5,
+          "rejected": {
+            "not-aligned": 21,
+            "neighbour-uncertain": 1
+          },
+          "yield": 0.185
+        },
+        "latin-letter": {
+          "units": 707,
+          "aligned": 214,
+          "extracted": 130,
+          "rejected": {
+            "not-aligned": 493,
+            "metrics-inconsistent": 1,
+            "neighbour-uncertain": 73,
+            "counter-unresolved": 8,
+            "outside-band": 2
+          },
+          "yield": 0.184
+        }
+      },
+      "truth": {
+        "truthWords": 126,
+        "aligned": {
+          "right": 62,
+          "wrong": []
+        },
+        "ambiguous": {
+          "onTheirWord": 46,
+          "elsewhere": 12
+        },
+        "missing": 6,
+        "units": {
+          "right": 221,
+          "wrong": 0
+        },
+        "glyphs": {
+          "inTheirWord": 136,
+          "elsewhere": []
+        },
+        "alignedPrecision": 1,
+        "alignedRecall": 0.492
+      }
+    },
+    "handwriting-02": {
+      "slot": 5,
+      "scripts": [
+        "Latn"
+      ],
+      "capture": {
+        "lighting": "even",
+        "paper": "ruled",
+        "writingSize": "small",
+        "skewDeg": -1.2,
+        "perspective": false
+      },
+      "quality": {
+        "score": 0.948,
+        "usable": true,
+        "issues": [
+          "too-small"
+        ]
+      },
+      "page": {
+        "status": "full-frame",
+        "rectified": false
+      },
+      "orientation": "across",
+      "skew": {
+        "angle": -1.2,
+        "applied": true
+      },
+      "lines": 18,
+      "alignment": {
+        "words": {
+          "aligned": 68,
+          "ambiguous": 44,
+          "missing": 7,
+          "lowQuality": 0
+        },
+        "units": {
+          "aligned": 0,
+          "ambiguous": 608,
+          "missing": 50,
+          "lowQuality": 0,
+          "unsupported": 0
+        }
+      },
+      "extraction": {
+        "considered": 658,
+        "extracted": 0,
+        "yield": 0,
+        "rejected": {
+          "not-aligned": 658
+        }
+      },
+      "byFeature": {
+        "latin-capital": {
+          "units": 15,
+          "aligned": 0,
+          "extracted": 0,
+          "rejected": {
+            "not-aligned": 15
+          },
+          "yield": 0
+        },
+        "punctuation": {
+          "units": 19,
+          "aligned": 0,
+          "extracted": 0,
+          "rejected": {
+            "not-aligned": 19
+          },
+          "yield": 0
+        },
+        "latin-letter": {
+          "units": 622,
+          "aligned": 0,
+          "extracted": 0,
+          "rejected": {
+            "not-aligned": 622
+          },
+          "yield": 0
+        }
+      },
+      "truth": {
+        "truthWords": 119,
+        "aligned": {
+          "right": 67,
+          "wrong": [
+            "Q1."
+          ]
+        },
+        "ambiguous": {
+          "onTheirWord": 22,
+          "elsewhere": 22
+        },
+        "missing": 7,
+        "units": {
+          "right": 0,
+          "wrong": 0
+        },
+        "glyphs": {
+          "inTheirWord": 0,
+          "elsewhere": []
+        },
+        "alignedPrecision": 0.985,
+        "alignedRecall": 0.563
+      }
+    },
+    "handwriting-01": {
+      "slot": 5,
+      "scripts": [
+        "Latn"
+      ],
+      "capture": {
+        "lighting": "even",
+        "paper": "notebook",
+        "writingSize": "small",
+        "skewDeg": -0.2,
+        "perspective": false
+      },
+      "quality": {
+        "score": 0.95,
+        "usable": false,
+        "issues": [
+          "too-small",
+          "too-small"
+        ]
+      },
+      "page": {
+        "status": "full-frame",
+        "rectified": false
+      },
+      "orientation": "across",
+      "skew": {
+        "angle": -0.2,
+        "applied": false
+      },
+      "lines": 21,
+      "alignment": {
+        "words": {
+          "aligned": 0,
+          "ambiguous": 0,
+          "missing": 0,
+          "lowQuality": 126
+        },
+        "units": {
+          "aligned": 0,
+          "ambiguous": 0,
+          "missing": 0,
+          "lowQuality": 685,
+          "unsupported": 0
+        }
+      },
+      "extraction": {
+        "considered": 685,
+        "extracted": 0,
+        "yield": 0,
+        "rejected": {
+          "image-unusable": 685
+        }
+      },
+      "byFeature": {
+        "latin-capital": {
+          "units": 27,
+          "aligned": 0,
+          "extracted": 0,
+          "rejected": {
+            "image-unusable": 27
+          },
+          "yield": 0
+        },
+        "punctuation": {
+          "units": 23,
+          "aligned": 0,
+          "extracted": 0,
+          "rejected": {
+            "image-unusable": 23
+          },
+          "yield": 0
+        },
+        "latin-letter": {
+          "units": 633,
+          "aligned": 0,
+          "extracted": 0,
+          "rejected": {
+            "image-unusable": 633
+          },
+          "yield": 0
+        }
+      },
+      "truth": null
+    }
+  },
+  "conditions": {
+    "handwriting-03": {
+      "uneven light": {
+        "quality": {
+          "score": 0.951,
+          "usable": true,
+          "issues": [
+            "uneven-lighting"
+          ]
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": 0.6,
+          "applied": true
+        },
+        "lines": 18,
+        "alignment": {
+          "words": {
+            "aligned": 62,
+            "ambiguous": 57,
+            "missing": 7,
+            "lowQuality": 0
+          },
+          "units": {
+            "aligned": 122,
+            "ambiguous": 586,
+            "missing": 43,
+            "lowQuality": 0,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 751,
+          "extracted": 71,
+          "yield": 0.095,
+          "rejected": {
+            "not-aligned": 629,
+            "neighbour-uncertain": 48,
+            "outside-band": 1,
+            "counter-unresolved": 2
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 27,
+            "aligned": 6,
+            "extracted": 5,
+            "rejected": {
+              "not-aligned": 21,
+              "neighbour-uncertain": 1
+            },
+            "yield": 0.185
+          },
+          "latin-letter": {
+            "units": 707,
+            "aligned": 116,
+            "extracted": 66,
+            "rejected": {
+              "not-aligned": 591,
+              "neighbour-uncertain": 47,
+              "outside-band": 1,
+              "counter-unresolved": 2
+            },
+            "yield": 0.093
+          }
+        },
+        "truth": {
+          "truthWords": 126,
+          "aligned": {
+            "right": 62,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 46,
+            "elsewhere": 11
+          },
+          "missing": 7,
+          "units": {
+            "right": 122,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 71,
+            "elsewhere": []
+          },
+          "alignedPrecision": 1,
+          "alignedRecall": 0.492
+        }
+      },
+      "dim, low contrast": {
+        "quality": {
+          "score": 0.954,
+          "usable": true,
+          "issues": []
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": 0.6,
+          "applied": true
+        },
+        "lines": 18,
+        "alignment": {
+          "words": {
+            "aligned": 68,
+            "ambiguous": 51,
+            "missing": 7,
+            "lowQuality": 0
+          },
+          "units": {
+            "aligned": 263,
+            "ambiguous": 439,
+            "missing": 49,
+            "lowQuality": 0,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 751,
+          "extracted": 191,
+          "yield": 0.254,
+          "rejected": {
+            "not-aligned": 488,
+            "neighbour-uncertain": 65,
+            "trace-unfaithful": 1,
+            "outside-band": 1,
+            "metrics-inconsistent": 2,
+            "counter-unresolved": 3
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 1,
+            "extracted": 1,
+            "rejected": {
+              "not-aligned": 14
+            },
+            "yield": 0.067
+          },
+          "punctuation": {
+            "units": 27,
+            "aligned": 7,
+            "extracted": 5,
+            "rejected": {
+              "not-aligned": 20,
+              "neighbour-uncertain": 2
+            },
+            "yield": 0.185
+          },
+          "latin-letter": {
+            "units": 707,
+            "aligned": 255,
+            "extracted": 185,
+            "rejected": {
+              "not-aligned": 452,
+              "neighbour-uncertain": 63,
+              "trace-unfaithful": 1,
+              "outside-band": 1,
+              "metrics-inconsistent": 2,
+              "counter-unresolved": 3
+            },
+            "yield": 0.262
+          }
+        },
+        "truth": {
+          "truthWords": 126,
+          "aligned": {
+            "right": 68,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 44,
+            "elsewhere": 7
+          },
+          "missing": 7,
+          "units": {
+            "right": 263,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 191,
+            "elsewhere": []
+          },
+          "alignedPrecision": 1,
+          "alignedRecall": 0.54
+        }
+      },
+      "hard shadow band": {
+        "quality": {
+          "score": 0.903,
+          "usable": false,
+          "issues": [
+            "uneven-lighting",
+            "page-unclear"
+          ]
+        },
+        "page": {
+          "status": "unclear",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": 0.6,
+          "applied": true
+        },
+        "lines": 11,
+        "alignment": {
+          "words": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 126
+          },
+          "units": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 751,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 751,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "image-unusable": 751
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 27,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 27
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 707,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 707
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 126,
+          "aligned": {
+            "right": 0,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 0,
+            "elsewhere": 0
+          },
+          "missing": 78,
+          "units": {
+            "right": 0,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": null,
+          "alignedRecall": 0
+        }
+      },
+      "skew 4°": {
+        "quality": {
+          "score": 0.958,
+          "usable": true,
+          "issues": []
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": -3.4,
+          "applied": true
+        },
+        "lines": 18,
+        "alignment": {
+          "words": {
+            "aligned": 59,
+            "ambiguous": 61,
+            "missing": 6,
+            "lowQuality": 0
+          },
+          "units": {
+            "aligned": 178,
+            "ambiguous": 529,
+            "missing": 44,
+            "lowQuality": 0,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 751,
+          "extracted": 98,
+          "yield": 0.13,
+          "rejected": {
+            "not-aligned": 573,
+            "neighbour-uncertain": 74,
+            "outside-band": 1,
+            "metrics-inconsistent": 1,
+            "counter-unresolved": 4
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 1,
+            "extracted": 1,
+            "rejected": {
+              "not-aligned": 14
+            },
+            "yield": 0.067
+          },
+          "punctuation": {
+            "units": 27,
+            "aligned": 6,
+            "extracted": 5,
+            "rejected": {
+              "not-aligned": 21,
+              "neighbour-uncertain": 1
+            },
+            "yield": 0.185
+          },
+          "latin-letter": {
+            "units": 707,
+            "aligned": 171,
+            "extracted": 92,
+            "rejected": {
+              "not-aligned": 536,
+              "neighbour-uncertain": 73,
+              "outside-band": 1,
+              "metrics-inconsistent": 1,
+              "counter-unresolved": 4
+            },
+            "yield": 0.13
+          }
+        },
+        "truth": {
+          "truthWords": 126,
+          "aligned": {
+            "right": 59,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 43,
+            "elsewhere": 18
+          },
+          "missing": 6,
+          "units": {
+            "right": 178,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 98,
+            "elsewhere": []
+          },
+          "alignedPrecision": 1,
+          "alignedRecall": 0.468
+        }
+      },
+      "skew −7°": {
+        "quality": {
+          "score": 0.966,
+          "usable": true,
+          "issues": [
+            "rotated"
+          ]
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": 7.6,
+          "applied": true
+        },
+        "lines": 17,
+        "alignment": {
+          "words": {
+            "aligned": 62,
+            "ambiguous": 47,
+            "missing": 17,
+            "lowQuality": 0
+          },
+          "units": {
+            "aligned": 182,
+            "ambiguous": 449,
+            "missing": 120,
+            "lowQuality": 0,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 751,
+          "extracted": 98,
+          "yield": 0.13,
+          "rejected": {
+            "not-aligned": 569,
+            "counter-unresolved": 5,
+            "neighbour-uncertain": 77,
+            "outside-band": 2
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 1,
+            "extracted": 1,
+            "rejected": {
+              "not-aligned": 14
+            },
+            "yield": 0.067
+          },
+          "punctuation": {
+            "units": 27,
+            "aligned": 5,
+            "extracted": 4,
+            "rejected": {
+              "not-aligned": 22,
+              "neighbour-uncertain": 1
+            },
+            "yield": 0.148
+          },
+          "latin-letter": {
+            "units": 707,
+            "aligned": 176,
+            "extracted": 93,
+            "rejected": {
+              "not-aligned": 531,
+              "counter-unresolved": 5,
+              "neighbour-uncertain": 76,
+              "outside-band": 2
+            },
+            "yield": 0.132
+          }
+        },
+        "truth": {
+          "truthWords": 126,
+          "aligned": {
+            "right": 60,
+            "wrong": [
+              "Q1.",
+              "advantages"
+            ]
+          },
+          "ambiguous": {
+            "onTheirWord": 30,
+            "elsewhere": 17
+          },
+          "missing": 17,
+          "units": {
+            "right": 182,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 98,
+            "elsewhere": []
+          },
+          "alignedPrecision": 0.968,
+          "alignedRecall": 0.476
+        }
+      },
+      "perspective on a desk": {
+        "quality": {
+          "score": 0.958,
+          "usable": true,
+          "issues": []
+        },
+        "page": {
+          "status": "page",
+          "rectified": true
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": 0.6,
+          "applied": true
+        },
+        "lines": 18,
+        "alignment": {
+          "words": {
+            "aligned": 38,
+            "ambiguous": 83,
+            "missing": 5,
+            "lowQuality": 0
+          },
+          "units": {
+            "aligned": 141,
+            "ambiguous": 572,
+            "missing": 38,
+            "lowQuality": 0,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 751,
+          "extracted": 102,
+          "yield": 0.136,
+          "rejected": {
+            "not-aligned": 610,
+            "metrics-inconsistent": 2,
+            "neighbour-uncertain": 28,
+            "counter-unresolved": 7,
+            "outside-band": 1,
+            "trace-unfaithful": 1
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 1,
+            "extracted": 1,
+            "rejected": {
+              "not-aligned": 14
+            },
+            "yield": 0.067
+          },
+          "punctuation": {
+            "units": 27,
+            "aligned": 2,
+            "extracted": 1,
+            "rejected": {
+              "not-aligned": 25,
+              "neighbour-uncertain": 1
+            },
+            "yield": 0.037
+          },
+          "latin-letter": {
+            "units": 707,
+            "aligned": 137,
+            "extracted": 99,
+            "rejected": {
+              "not-aligned": 570,
+              "metrics-inconsistent": 2,
+              "neighbour-uncertain": 27,
+              "counter-unresolved": 7,
+              "outside-band": 1,
+              "trace-unfaithful": 1
+            },
+            "yield": 0.14
+          }
+        },
+        "truth": {
+          "truthWords": 126,
+          "aligned": {
+            "right": 38,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 73,
+            "elsewhere": 10
+          },
+          "missing": 5,
+          "units": {
+            "right": 141,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 102,
+            "elsewhere": []
+          },
+          "alignedPrecision": 1,
+          "alignedRecall": 0.302
+        }
+      },
+      "writing ×0.75": {
+        "quality": {
+          "score": 0.942,
+          "usable": false,
+          "issues": [
+            "too-small",
+            "too-small"
+          ]
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": 0.6,
+          "applied": true
+        },
+        "lines": 17,
+        "alignment": {
+          "words": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 126
+          },
+          "units": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 751,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 751,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "image-unusable": 751
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 27,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 27
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 707,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 707
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 126,
+          "aligned": {
+            "right": 0,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 0,
+            "elsewhere": 0
+          },
+          "missing": 14,
+          "units": {
+            "right": 0,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": null,
+          "alignedRecall": 0
+        }
+      },
+      "writing ×0.6": {
+        "quality": {
+          "score": 0.908,
+          "usable": false,
+          "issues": [
+            "too-small",
+            "too-small"
+          ]
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": 0.6,
+          "applied": true
+        },
+        "lines": 17,
+        "alignment": {
+          "words": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 126
+          },
+          "units": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 751,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 751,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "image-unusable": 751
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 27,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 27
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 707,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 707
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 126,
+          "aligned": {
+            "right": 0,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 0,
+            "elsewhere": 0
+          },
+          "missing": 15,
+          "units": {
+            "right": 0,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": null,
+          "alignedRecall": 0
+        }
+      }
+    },
+    "handwriting-02": {
+      "uneven light": {
+        "quality": {
+          "score": 0.948,
+          "usable": true,
+          "issues": [
+            "uneven-lighting",
+            "too-small"
+          ]
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": -1.2,
+          "applied": true
+        },
+        "lines": 18,
+        "alignment": {
+          "words": {
+            "aligned": 68,
+            "ambiguous": 44,
+            "missing": 7,
+            "lowQuality": 0
+          },
+          "units": {
+            "aligned": 0,
+            "ambiguous": 608,
+            "missing": 50,
+            "lowQuality": 0,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 658,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "not-aligned": 658
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 19,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 19
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 622,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 622
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 119,
+          "aligned": {
+            "right": 67,
+            "wrong": [
+              "Q1."
+            ]
+          },
+          "ambiguous": {
+            "onTheirWord": 22,
+            "elsewhere": 22
+          },
+          "missing": 7,
+          "units": {
+            "right": 0,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": 0.985,
+          "alignedRecall": 0.563
+        }
+      },
+      "dim, low contrast": {
+        "quality": {
+          "score": 0.927,
+          "usable": true,
+          "issues": [
+            "too-small"
+          ]
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": -1.1,
+          "applied": true
+        },
+        "lines": 17,
+        "alignment": {
+          "words": {
+            "aligned": 97,
+            "ambiguous": 17,
+            "missing": 5,
+            "lowQuality": 0
+          },
+          "units": {
+            "aligned": 0,
+            "ambiguous": 625,
+            "missing": 33,
+            "lowQuality": 0,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 658,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "not-aligned": 658
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 19,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 19
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 622,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 622
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 119,
+          "aligned": {
+            "right": 96,
+            "wrong": [
+              "By"
+            ]
+          },
+          "ambiguous": {
+            "onTheirWord": 13,
+            "elsewhere": 4
+          },
+          "missing": 5,
+          "units": {
+            "right": 0,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": 0.99,
+          "alignedRecall": 0.807
+        }
+      },
+      "hard shadow band": {
+        "quality": {
+          "score": 0.952,
+          "usable": false,
+          "issues": [
+            "uneven-lighting",
+            "too-small",
+            "page-unclear"
+          ]
+        },
+        "page": {
+          "status": "unclear",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": -1.2,
+          "applied": true
+        },
+        "lines": 18,
+        "alignment": {
+          "words": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 119
+          },
+          "units": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 658,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 658,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "image-unusable": 658
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 19,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 19
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 622,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 622
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 119,
+          "aligned": {
+            "right": 0,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 0,
+            "elsewhere": 0
+          },
+          "missing": 14,
+          "units": {
+            "right": 0,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": null,
+          "alignedRecall": 0
+        }
+      },
+      "skew 4°": {
+        "quality": {
+          "score": 0.948,
+          "usable": true,
+          "issues": [
+            "rotated",
+            "too-small"
+          ]
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": -5.2,
+          "applied": true
+        },
+        "lines": 18,
+        "alignment": {
+          "words": {
+            "aligned": 64,
+            "ambiguous": 47,
+            "missing": 8,
+            "lowQuality": 0
+          },
+          "units": {
+            "aligned": 0,
+            "ambiguous": 612,
+            "missing": 46,
+            "lowQuality": 0,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 658,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "not-aligned": 658
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 19,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 19
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 622,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 622
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 119,
+          "aligned": {
+            "right": 63,
+            "wrong": [
+              "Q1."
+            ]
+          },
+          "ambiguous": {
+            "onTheirWord": 25,
+            "elsewhere": 22
+          },
+          "missing": 8,
+          "units": {
+            "right": 0,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": 0.984,
+          "alignedRecall": 0.529
+        }
+      },
+      "skew −7°": {
+        "quality": {
+          "score": 0.945,
+          "usable": true,
+          "issues": [
+            "rotated",
+            "too-small"
+          ]
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": 5.8,
+          "applied": true
+        },
+        "lines": 17,
+        "alignment": {
+          "words": {
+            "aligned": 59,
+            "ambiguous": 48,
+            "missing": 12,
+            "lowQuality": 0
+          },
+          "units": {
+            "aligned": 0,
+            "ambiguous": 598,
+            "missing": 60,
+            "lowQuality": 0,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 658,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "not-aligned": 658
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 19,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 19
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 622,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 622
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 119,
+          "aligned": {
+            "right": 59,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 31,
+            "elsewhere": 17
+          },
+          "missing": 12,
+          "units": {
+            "right": 0,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": 1,
+          "alignedRecall": 0.496
+        }
+      },
+      "perspective on a desk": {
+        "quality": {
+          "score": 0.975,
+          "usable": true,
+          "issues": []
+        },
+        "page": {
+          "status": "page",
+          "rectified": true
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": -1.1,
+          "applied": true
+        },
+        "lines": 17,
+        "alignment": {
+          "words": {
+            "aligned": 77,
+            "ambiguous": 38,
+            "missing": 4,
+            "lowQuality": 0
+          },
+          "units": {
+            "aligned": 11,
+            "ambiguous": 617,
+            "missing": 30,
+            "lowQuality": 0,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 658,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "not-aligned": 647,
+            "neighbour-uncertain": 4,
+            "counter-unresolved": 6,
+            "too-small": 1
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 1,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 14,
+              "counter-unresolved": 1
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 19,
+            "aligned": 5,
+            "extracted": 0,
+            "rejected": {
+              "neighbour-uncertain": 4,
+              "not-aligned": 14,
+              "too-small": 1
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 622,
+            "aligned": 5,
+            "extracted": 0,
+            "rejected": {
+              "not-aligned": 617,
+              "counter-unresolved": 5
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 119,
+          "aligned": {
+            "right": 76,
+            "wrong": [
+              "By"
+            ]
+          },
+          "ambiguous": {
+            "onTheirWord": 29,
+            "elsewhere": 9
+          },
+          "missing": 4,
+          "units": {
+            "right": 10,
+            "wrong": 1
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": 0.987,
+          "alignedRecall": 0.639
+        }
+      },
+      "writing ×0.75": {
+        "quality": {
+          "score": 0.903,
+          "usable": false,
+          "issues": [
+            "too-small",
+            "too-small"
+          ]
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": -1.2,
+          "applied": true
+        },
+        "lines": 17,
+        "alignment": {
+          "words": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 119
+          },
+          "units": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 658,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 658,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "image-unusable": 658
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 19,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 19
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 622,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 622
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 119,
+          "aligned": {
+            "right": 0,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 0,
+            "elsewhere": 0
+          },
+          "missing": 6,
+          "units": {
+            "right": 0,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": null,
+          "alignedRecall": 0
+        }
+      },
+      "writing ×0.6": {
+        "quality": {
+          "score": 0.857,
+          "usable": false,
+          "issues": [
+            "too-small",
+            "too-small"
+          ]
+        },
+        "page": {
+          "status": "full-frame",
+          "rectified": false
+        },
+        "orientation": "across",
+        "skew": {
+          "angle": -1.1,
+          "applied": true
+        },
+        "lines": 17,
+        "alignment": {
+          "words": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 119
+          },
+          "units": {
+            "aligned": 0,
+            "ambiguous": 0,
+            "missing": 0,
+            "lowQuality": 658,
+            "unsupported": 0
+          }
+        },
+        "extraction": {
+          "considered": 658,
+          "extracted": 0,
+          "yield": 0,
+          "rejected": {
+            "image-unusable": 658
+          }
+        },
+        "byFeature": {
+          "latin-capital": {
+            "units": 15,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 15
+            },
+            "yield": 0
+          },
+          "punctuation": {
+            "units": 19,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 19
+            },
+            "yield": 0
+          },
+          "latin-letter": {
+            "units": 622,
+            "aligned": 0,
+            "extracted": 0,
+            "rejected": {
+              "image-unusable": 622
+            },
+            "yield": 0
+          }
+        },
+        "truth": {
+          "truthWords": 119,
+          "aligned": {
+            "right": 0,
+            "wrong": []
+          },
+          "ambiguous": {
+            "onTheirWord": 0,
+            "elsewhere": 0
+          },
+          "missing": 5,
+          "units": {
+            "right": 0,
+            "wrong": 0
+          },
+          "glyphs": {
+            "inTheirWord": 0,
+            "elsewhere": []
+          },
+          "alignedPrecision": null,
+          "alignedRecall": 0
+        }
+      }
+    }
+  },
+  "profile": {
+    "status": "insufficient",
+    "requirements": [
+      {
+        "id": "latin-lowercase",
+        "pass": false,
+        "actual": 0.769,
+        "reason": "20 of 26 lowercase a–z observed (77 %); at least 90 % are needed. Missing: f j q v x y"
+      },
+      {
+        "id": "latin-uppercase",
+        "pass": false,
+        "actual": 0.038,
+        "reason": "1 of 26 capitals A–Z observed (4 %); at least 75 % are needed. Missing: A B C D E F G H J K L M N O P Q R S T U V W X Y Z"
+      },
+      {
+        "id": "latin-confidence",
+        "pass": true,
+        "actual": 0.756,
+        "reason": null
+      }
+    ],
+    "support": {
+      "Latn": {
+        "level": "insufficient",
+        "required": {
+          "total": 52,
+          "learned": 21,
+          "missing": [
+            "f",
+            "j",
+            "q",
+            "v",
+            "x",
+            "y",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "U",
+            "V",
+            "W",
+            "X",
+            "Y",
+            "Z"
+          ]
+        },
+        "optional": {
+          "total": 27,
+          "learned": 1,
+          "missing": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            ".",
+            ";",
+            ":",
+            "?",
+            "!",
+            "(",
+            ")",
+            "-",
+            "\"",
+            "'",
+            "/",
+            "%",
+            "&",
+            "+",
+            "=",
+            "₹"
+          ]
+        },
+        "text": "English: not enough learned to write it; optional 1 of 27 (missing 0 1 2 3 4 5 6 7 8 9 . ; : ? ! ( ) - \" ' / % & + = ₹). Characters not learned show as dashed boxes."
+      }
+    }
+  },
+  "rejectionsWithoutReason": 0
+}

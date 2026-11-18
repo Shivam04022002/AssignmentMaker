@@ -1,0 +1,281 @@
+{
+ "handwriting_02x2": {
+  "quality": {
+   "usable": true,
+   "score": 0.964,
+   "issues": []
+  },
+  "segmentation": {
+   "lines": 18,
+   "expectedLines": 16,
+   "words": 142,
+   "medianXHeight": 18,
+   "headlines": 0
+  },
+  "skew": {
+   "angle": -1.2,
+   "confidence": 0.6743620224843809,
+   "method": "projection-profile",
+   "points": 30369,
+   "applied": true
+  },
+  "alignment": {
+   "expectedWords": 119,
+   "expectedUnits": 658,
+   "words": {
+    "aligned": 65,
+    "ambiguous": 45,
+    "missing": 9,
+    "lowQuality": 0
+   },
+   "units": {
+    "aligned": 11,
+    "ambiguous": 580,
+    "missing": 67,
+    "lowQuality": 0,
+    "unsupported": 0
+   },
+   "extraInk": 35
+  },
+  "unitStates": {
+   "ambiguous": 580,
+   "aligned": 11,
+   "missing": 67
+  },
+  "rejections": {
+   "not-aligned": 647,
+   "neighbour-uncertain": 6,
+   "counter-unresolved": 1
+  },
+  "inAlignedWords": {
+   "units": 343,
+   "aligned": 11,
+   "boundaryMedian": 0.433,
+   "boundaryP25": 0.418,
+   "alignmentMedian": 0.76,
+   "belowBoundaryOk": 235,
+   "belowAlignmentOk": 21
+  },
+  "topAmbiguousReasons": [
+   [
+    "touches a neighbour (boundary at a thin joining stroke)",
+    324
+   ],
+   [
+    "its cuts are far from where the text’s letter widths place them (posit",
+    131
+   ],
+   [
+    "line: may contain more than one line (lines touch)",
+    15
+   ],
+   [
+    "a small mark at the word’s start was left out: too small and flat for ",
+    14
+   ],
+   [
+    "a small mark at the word’s end was left out: too small and flat for th",
+    14
+   ],
+   [
+    "no visible boundary inside “ta”: these # units share one region",
+    6
+   ],
+   [
+    "no visible boundary inside “fo”: these # units share one region",
+    2
+   ],
+   [
+    "no visible boundary inside “ty”: these # units share one region",
+    2
+   ]
+  ],
+  "extracted": {
+   "considered": 658,
+   "extracted": 4,
+   "rejected": {
+    "not-aligned": 647,
+    "neighbour-uncertain": 6,
+    "counter-unresolved": 1
+   }
+  }
+ },
+ "handwriting_01x2": {
+  "quality": {
+   "usable": true,
+   "score": 0.958,
+   "issues": []
+  },
+  "segmentation": {
+   "lines": 22,
+   "expectedLines": 18,
+   "words": 146,
+   "medianXHeight": 16,
+   "headlines": 0
+  },
+  "skew": {
+   "angle": -0.3,
+   "confidence": 0.6288042879228103,
+   "method": "projection-profile",
+   "points": 37189,
+   "applied": true
+  },
+  "alignment": {
+   "expectedWords": 126,
+   "expectedUnits": 685,
+   "words": {
+    "aligned": 2,
+    "ambiguous": 111,
+    "missing": 13,
+    "lowQuality": 0
+   },
+   "units": {
+    "aligned": 1,
+    "ambiguous": 612,
+    "missing": 72,
+    "lowQuality": 0,
+    "unsupported": 0
+   },
+   "extraInk": 42
+  },
+  "unitStates": {
+   "ambiguous": 612,
+   "missing": 72,
+   "aligned": 1
+  },
+  "rejections": {
+   "not-aligned": 684,
+   "neighbour-uncertain": 1
+  },
+  "inAlignedWords": {
+   "units": 14,
+   "aligned": 1,
+   "boundaryMedian": 0.476,
+   "boundaryP25": 0.455,
+   "alignmentMedian": 0.555,
+   "belowBoundaryOk": 0,
+   "belowAlignmentOk": 2
+  },
+  "topAmbiguousReasons": [
+   [
+    "touches a neighbour (boundary at a thin joining stroke)",
+    11
+   ],
+   [
+    "its cuts are far from where the text’s letter widths place them (posit",
+    2
+   ],
+   [
+    "confidence below the thresholds (boundary #, alignment #)",
+    1
+   ],
+   [
+    "its ink is only # px tall, too flat for a letter (x-height # px): prob",
+    1
+   ]
+  ],
+  "extracted": {
+   "considered": 685,
+   "extracted": 0,
+   "rejected": {
+    "not-aligned": 684,
+    "neighbour-uncertain": 1
+   }
+  }
+ },
+ "handwriting_03x2": {
+  "quality": {
+   "usable": true,
+   "score": 0.953,
+   "issues": []
+  },
+  "segmentation": {
+   "lines": 17,
+   "expectedLines": 18,
+   "words": 120,
+   "medianXHeight": 24,
+   "headlines": 0
+  },
+  "skew": {
+   "angle": 0.6,
+   "confidence": 0.4998790613088024,
+   "method": "projection-profile",
+   "points": 31950,
+   "applied": true
+  },
+  "alignment": {
+   "expectedWords": 126,
+   "expectedUnits": 751,
+   "words": {
+    "aligned": 60,
+    "ambiguous": 50,
+    "missing": 16,
+    "lowQuality": 0
+   },
+   "units": {
+    "aligned": 274,
+    "ambiguous": 341,
+    "missing": 136,
+    "lowQuality": 0,
+    "unsupported": 0
+   },
+   "extraInk": 9
+  },
+  "unitStates": {
+   "aligned": 274,
+   "ambiguous": 341,
+   "missing": 136
+  },
+  "rejections": {
+   "neighbour-uncertain": 49,
+   "not-aligned": 477,
+   "counter-unresolved": 14,
+   "outside-band": 2
+  },
+  "inAlignedWords": {
+   "units": 339,
+   "aligned": 274,
+   "boundaryMedian": 0.679,
+   "boundaryP25": 0.614,
+   "alignmentMedian": 0.807,
+   "belowBoundaryOk": 15,
+   "belowAlignmentOk": 6
+  },
+  "topAmbiguousReasons": [
+   [
+    "touches a neighbour (boundary at a thin joining stroke)",
+    34
+   ],
+   [
+    "its cuts are far from where the text’s letter widths place them (posit",
+    21
+   ],
+   [
+    "line: may contain more than one line (lines touch)",
+    13
+   ],
+   [
+    "no visible boundary inside “h—”: these # units share one region",
+    2
+   ],
+   [
+    "no visible boundary inside “ap”: these # units share one region",
+    2
+   ],
+   [
+    "its ink reaches into the ascender zone, which “w” does not: probably p",
+    1
+   ]
+  ],
+  "extracted": {
+   "considered": 751,
+   "extracted": 209,
+   "rejected": {
+    "neighbour-uncertain": 49,
+    "not-aligned": 477,
+    "counter-unresolved": 14,
+    "outside-band": 2
+   }
+  }
+ }
+}

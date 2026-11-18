@@ -1,0 +1,67 @@
+{
+  "note": "REAL glyphs from reference/handwriting_03.png, DIAGNOSTIC ONLY: the app refuses this profile (insufficient coverage); requirements were switched off in the bench to render it. No ground truth: spreads are measurements of the drawn forms, not accuracy.",
+  "h03diag": {
+    "before": {
+      "glyphs": 98,
+      "missing": 66,
+      "shortTop": {
+        "mean": 0.975,
+        "sd": 0.088,
+        "n": 54
+      },
+      "capTop": null,
+      "ascTop": {
+        "mean": 1.748,
+        "sd": 0.15,
+        "n": 21
+      },
+      "baseline": {
+        "mean": -0.001,
+        "sd": 0.1,
+        "n": 75
+      },
+      "letterGap": {
+        "mean": 0.52,
+        "sd": 0.022,
+        "n": 64
+      },
+      "headline": null,
+      "joins": 0,
+      "unjoined": 0,
+      "joinEndOffHeadline": null,
+      "lines": 6,
+      "unsupported": "TqfxjvSxfqjvPxfvqjभारतमेरादेशहैऔरहमसबमिलकरपढ़तेहैंविद्यालयमेंपुस्तकेंहैंकिकीकुकेकोHहिंदीExxविद्या2026"
+    },
+    "after": {
+      "glyphs": 98,
+      "missing": 66,
+      "shortTop": {
+        "mean": 0.961,
+        "sd": 0.051,
+        "n": 54
+      },
+      "capTop": null,
+      "ascTop": {
+        "mean": 1.753,
+        "sd": 0.071,
+        "n": 21
+      },
+      "baseline": {
+        "mean": -0.021,
+        "sd": 0.08,
+        "n": 75
+      },
+      "letterGap": {
+        "mean": 0.52,
+        "sd": 0.023,
+        "n": 64
+      },
+      "headline": null,
+      "joins": 0,
+      "unjoined": 0,
+      "joinEndOffHeadline": null,
+      "lines": 6,
+      "unsupported": "TqfxjvSxfqjvPxfvqjभारतमेरादेशहैऔरहमसबमिलकरपढ़तेहैंविद्यालयमेंपुस्तकेंहैंकिकीकुकेकोHहिंदीExxविद्या2026"
+    }
+  }
+}

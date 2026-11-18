@@ -1,0 +1,403 @@
+{
+  "status": "created",
+  "requirements": [
+    {
+      "id": "latin-lowercase",
+      "script": "Latn",
+      "description": "lowercase a–z",
+      "required": 0.9,
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "id": "latin-uppercase",
+      "script": "Latn",
+      "description": "capitals A–Z",
+      "required": 0.75,
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "id": "latin-confidence",
+      "script": "Latn",
+      "description": "mean confidence of the observed glyphs",
+      "required": 0.45,
+      "actual": 0.642,
+      "pass": true
+    },
+    {
+      "id": "devanagari-consonants",
+      "script": "Deva",
+      "description": "the base consonants",
+      "required": 0.85,
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "id": "devanagari-prompt",
+      "script": "Deva",
+      "description": "the Hindi alphabet sample (vowels, consonants, matras, conjuncts)",
+      "required": 0.75,
+      "actual": 0.907,
+      "pass": true
+    },
+    {
+      "id": "devanagari-confidence",
+      "script": "Deva",
+      "description": "mean confidence of the observed glyphs",
+      "required": 0.45,
+      "actual": 0.476,
+      "pass": true
+    }
+  ],
+  "scripts": {
+    "Latn": {
+      "latinLower": {
+        "total": 26,
+        "observed": 26,
+        "uncertain": 0,
+        "missing": 0,
+        "missingKeys": []
+      },
+      "latinUpper": {
+        "total": 26,
+        "observed": 26,
+        "uncertain": 0,
+        "missing": 0,
+        "missingKeys": []
+      },
+      "latinExtra": {
+        "total": 27,
+        "observed": 7,
+        "uncertain": 0,
+        "missing": 20,
+        "missingKeys": [
+          "0",
+          "1",
+          "8",
+          "9",
+          ",",
+          ";",
+          ":",
+          "?",
+          "!",
+          "(",
+          ")",
+          "-",
+          "\"",
+          "'",
+          "/",
+          "%",
+          "&",
+          "+",
+          "=",
+          "₹"
+        ]
+      }
+    },
+    "Deva": {
+      "devaConsonants": {
+        "total": 33,
+        "observed": 33,
+        "uncertain": 0,
+        "missing": 0,
+        "missingKeys": []
+      },
+      "devaPrompt": {
+        "total": 75,
+        "observed": 68,
+        "uncertain": 0,
+        "missing": 7,
+        "missingKeys": [
+          "क़",
+          "ख़",
+          "ग़",
+          "ज़",
+          "ड़",
+          "ढ़",
+          "फ़"
+        ]
+      }
+    }
+  },
+  "params": {
+    "xHeightPerPitch": {
+      "value": 0.31,
+      "source": "engine-default",
+      "samples": 0
+    },
+    "ascender": {
+      "value": 1.642,
+      "source": "measured",
+      "samples": 14
+    },
+    "capHeight": {
+      "value": 1.444,
+      "source": "measured",
+      "samples": 27
+    },
+    "descender": {
+      "value": 0.582,
+      "source": "measured",
+      "samples": 16
+    },
+    "strokeWidth": {
+      "value": 0.142,
+      "source": "measured",
+      "samples": 190
+    },
+    "letterGap": {
+      "value": 0.139,
+      "source": "measured",
+      "samples": 98
+    },
+    "glyphWidth": {
+      "value": 1,
+      "source": "engine-default",
+      "samples": 0
+    },
+    "wordGap": {
+      "value": 1.346,
+      "source": "measured",
+      "samples": 79
+    },
+    "slant": {
+      "value": 0,
+      "source": "measured",
+      "samples": 103
+    }
+  },
+  "samples": [
+    {
+      "slot": 1,
+      "considered": 85,
+      "extracted": 81,
+      "used": 81,
+      "rejected": {
+        "extraction:trace-unfaithful": 4
+      },
+      "units": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "q",
+        "s",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    {
+      "slot": 2,
+      "considered": 75,
+      "extracted": 68,
+      "used": 68,
+      "rejected": {
+        "extraction:marks-inconsistent": 7
+      },
+      "units": [
+        "अ",
+        "अं",
+        "अः",
+        "आ",
+        "इ",
+        "ई",
+        "उ",
+        "ऊ",
+        "ऋ",
+        "ए",
+        "ऐ",
+        "ओ",
+        "औ",
+        "क",
+        "कँ",
+        "कं",
+        "कः",
+        "का",
+        "कि",
+        "की",
+        "कु",
+        "कू",
+        "कृ",
+        "के",
+        "कै",
+        "को",
+        "कौ",
+        "क्",
+        "क्र",
+        "क्ष",
+        "ख",
+        "ग",
+        "घ",
+        "ङ",
+        "च",
+        "छ",
+        "ज",
+        "ज्ञ",
+        "झ",
+        "ञ",
+        "ट",
+        "ठ",
+        "ड",
+        "ढ",
+        "ण",
+        "त",
+        "त्र",
+        "थ",
+        "द",
+        "द्ध",
+        "ध",
+        "न",
+        "प",
+        "प्र",
+        "फ",
+        "ब",
+        "भ",
+        "म",
+        "य",
+        "र",
+        "ल",
+        "व",
+        "श",
+        "श्र",
+        "ष",
+        "स",
+        "स्त",
+        "ह"
+      ]
+    },
+    {
+      "slot": 3,
+      "considered": 63,
+      "extracted": 41,
+      "used": 41,
+      "rejected": {
+        "extraction:not-aligned": 19,
+        "extraction:neighbour-uncertain": 2,
+        "extraction:trace-unfaithful": 1
+      },
+      "units": [
+        ".",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "T",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y",
+        "z"
+      ]
+    }
+  ],
+  "rejectedByCode": {
+    "extraction:trace-unfaithful": 5,
+    "extraction:marks-inconsistent": 7,
+    "extraction:not-aligned": 19,
+    "extraction:neighbour-uncertain": 2
+  },
+  "thresholds": {
+    "GLYPH_MIN": 0.4,
+    "OBSERVED_MIN": 0.45,
+    "VARIANT_SAME": 0.06,
+    "CONFLICT": 0.3,
+    "MAX_VARIANTS": 4,
+    "PAD": 0.06,
+    "meanConfidenceMin": 0.45
+  },
+  "words": [
+    {
+      "word": "प्रकाश",
+      "joins": 2,
+      "unjoined": []
+    },
+    {
+      "word": "कमल",
+      "joins": 2,
+      "unjoined": []
+    },
+    {
+      "word": "नमक",
+      "joins": 2,
+      "unjoined": []
+    },
+    {
+      "word": "सरल",
+      "joins": 2,
+      "unjoined": []
+    },
+    {
+      "word": "किताब",
+      "joins": 0,
+      "unjoined": []
+    }
+  ],
+  "synthetic": true
+}

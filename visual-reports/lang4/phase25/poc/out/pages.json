@@ -1,0 +1,508 @@
+{
+ "handwriting_01.png": {
+  "boxes": 21,
+  "det_ms": 209,
+  "rec_ms": 1488,
+  "total_ms": 1800,
+  "lines": [
+   {
+    "y": 18.80162811279297,
+    "x": 609.9232177734375,
+    "text": "apsara",
+    "conf": 0.999,
+    "det": 0.992
+   },
+   {
+    "y": 48.27445602416992,
+    "x": 577.977294921875,
+    "text": "Date:",
+    "conf": 0.994,
+    "det": 0.953
+   },
+   {
+    "y": 105.69564819335938,
+    "x": 303.2414855957031,
+    "text": "Q1. What is working capital management in India?",
+    "conf": 0.96,
+    "det": 0.986
+   },
+   {
+    "y": 140.25,
+    "x": 69.78977966308594,
+    "text": "Ans:",
+    "conf": 0.986,
+    "det": 0.975
+   },
+   {
+    "y": 171.75543212890625,
+    "x": 367.133544921875,
+    "text": "Working Capital Management (wcM) in India refers to the",
+    "conf": 0.928,
+    "det": 0.991
+   },
+   {
+    "y": 207.32608032226562,
+    "x": 360.25286865234375,
+    "text": "strategic process of managing a company''s short-term",
+    "conf": 0.977,
+    "det": 0.985
+   },
+   {
+    "y": 240.86416625976562,
+    "x": 370.57391357421875,
+    "text": "assets and liabilities to ensure it has sufficient liquidity",
+    "conf": 0.929,
+    "det": 0.991
+   },
+   {
+    "y": 271.86138916015625,
+    "x": 189.71023559570312,
+    "text": "to operate efficiently.",
+    "conf": 0.954,
+    "det": 0.989
+   },
+   {
+    "y": 305.39947509765625,
+    "x": 359.76141357421875,
+    "text": "In the Indian business landscape, this is a delicate",
+    "conf": 0.98,
+    "det": 0.987
+   },
+   {
+    "y": 340.4620056152344,
+    "x": 364.6805419921875,
+    "text": "balancing act between profitability and solvency, heavily",
+    "conf": 0.984,
+    "det": 0.987
+   },
+   {
+    "y": 374.5081787109375,
+    "x": 361.7308654785156,
+    "text": "influenced by local banking regulations and the unique",
+    "conf": 0.982,
+    "det": 0.987
+   },
+   {
+    "y": 408.55438232421875,
+    "x": 261.4659118652344,
+    "text": "credit cycles of the Indian market.",
+    "conf": 0.987,
+    "det": 0.982
+   },
+   {
+    "y": 443.61688232421875,
+    "x": 367.62847900390625,
+    "text": "The core objective is to maintain a satisfactory level of",
+    "conf": 0.984,
+    "det": 0.986
+   },
+   {
+    "y": 478.67926025390625,
+    "x": 371.5567932128906,
+    "text": "working capital to avoid the risk of technical insolvency",
+    "conf": 0.976,
+    "det": 0.99
+   },
+   {
+    "y": 514.25,
+    "x": 154.32386779785156,
+    "text": "or bankruptcy",
+    "conf": 0.953,
+    "det": 0.988
+   },
+   {
+    "y": 582.3424072265625,
+    "x": 198.06533813476562,
+    "text": "1. Key Concepts and Definitions",
+    "conf": 0.971,
+    "det": 0.992
+   },
+   {
+    "y": 618.9293823242188,
+    "x": 359.76318359375,
+    "text": "In India, working capital is typically viewed through two",
+    "conf": 0.976,
+    "det": 0.985
+   },
+   {
+    "y": 653.9918212890625,
+    "x": 167.102294921875,
+    "text": "conceptual lenses:",
+    "conf": 0.978,
+    "det": 0.989
+   },
+   {
+    "y": 688.0379638671875,
+    "x": 356.81341552734375,
+    "text": "Gross Working Capital (Gwc): The total investment in all",
+    "conf": 0.943,
+    "det": 0.99
+   },
+   {
+    "y": 724.1168212890625,
+    "x": 361.72637939453125,
+    "text": "current assets, such as cash, inventory, and receivables.",
+    "conf": 0.965,
+    "det": 0.989
+   }
+  ],
+  "mean_conf": 0.97,
+  "words_expected": 126,
+  "words_recognised": 123,
+  "words_hit_verbatim": 114,
+  "word_recall": 0.905,
+  "page_cer": 0.031
+ },
+ "handwriting_02.png": {
+  "boxes": 17,
+  "det_ms": 253,
+  "rec_ms": 1779,
+  "total_ms": 2115,
+  "lines": [
+   {
+    "y": 10.414402961730957,
+    "x": 773.7232666015625,
+    "text": "Date:___/_/_",
+    "conf": 0.87,
+    "det": 0.96
+   },
+   {
+    "y": 71.90897369384766,
+    "x": 451.5055847167969,
+    "text": "Q1. Why it is important for business enterprise to understand",
+    "conf": 0.988,
+    "det": 0.991
+   },
+   {
+    "y": 111.58289337158203,
+    "x": 307.18414306640625,
+    "text": "their environment? Explain",
+    "conf": 0.989,
+    "det": 0.989
+   },
+   {
+    "y": 147.78533935546875,
+    "x": 111.74888610839844,
+    "text": "Ans:",
+    "conf": 0.986,
+    "det": 0.989
+   },
+   {
+    "y": 198.36961364746094,
+    "x": 490.5926513671875,
+    "text": "Understanding the business environment is not just a",
+    "conf": 0.99,
+    "det": 0.988
+   },
+   {
+    "y": 241.01904296875,
+    "x": 481.0714416503906,
+    "text": "theoretical exercise; it is a fundamental necessity for the",
+    "conf": 0.985,
+    "det": 0.988
+   },
+   {
+    "y": 282.6766357421875,
+    "x": 483.0758972167969,
+    "text": "surwival and growth of any enterprise. The environment",
+    "conf": 0.977,
+    "det": 0.989
+   },
+   {
+    "y": 323.8383483886719,
+    "x": 485.58148193359375,
+    "text": "consists of all external forces -economic, social, legal,",
+    "conf": 0.986,
+    "det": 0.989
+   },
+   {
+    "y": 365.0,
+    "x": 481.0713806152344,
+    "text": "technological, and political -that influence a business but",
+    "conf": 0.982,
+    "det": 0.989
+   },
+   {
+    "y": 403.68206787109375,
+    "x": 323.2198791503906,
+    "text": "are outside its direct control.",
+    "conf": 0.988,
+    "det": 0.989
+   },
+   {
+    "y": 447.3234558105469,
+    "x": 497.10711669921875,
+    "text": "Here is why it is critical for a business to understand",
+    "conf": 0.994,
+    "det": 0.99
+   },
+   {
+    "y": 486.9973449707031,
+    "x": 222.49551391601562,
+    "text": "these factors:",
+    "conf": 0.976,
+    "det": 0.987
+   },
+   {
+    "y": 536.5897216796875,
+    "x": 459.0222473144531,
+    "text": "1. Identifying Opportunities and Getting the First-Mover Advorstage",
+    "conf": 0.983,
+    "det": 0.989
+   },
+   {
+    "y": 576.7595825195312,
+    "x": 489.5904235839844,
+    "text": "A business that is aware of its environment can spot",
+    "conf": 0.982,
+    "det": 0.988
+   },
+   {
+    "y": 620.40087890625,
+    "x": 474.55694580078125,
+    "text": "favorable trends early. By recognizing these opportunities",
+    "conf": 0.982,
+    "det": 0.989
+   },
+   {
+    "y": 661.0665893554688,
+    "x": 478.0647888183594,
+    "text": "before competitors, an enterprise can launch new products",
+    "conf": 0.993,
+    "det": 0.985
+   },
+   {
+    "y": 702.228271484375,
+    "x": 447.4966735839844,
+    "text": "or services first, capturing a larger market share.",
+    "conf": 0.975,
+    "det": 0.986
+   }
+  ],
+  "mean_conf": 0.978,
+  "words_expected": 119,
+  "words_recognised": 115,
+  "words_hit_verbatim": 107,
+  "word_recall": 0.899,
+  "page_cer": 0.028
+ },
+ "handwriting_03.png": {
+  "boxes": 19,
+  "det_ms": 262,
+  "rec_ms": 1872,
+  "total_ms": 2225,
+  "lines": [
+   {
+    "y": 24.51171875,
+    "x": 38.458335876464844,
+    "text": "Q1.",
+    "conf": 0.999,
+    "det": 0.98
+   },
+   {
+    "y": 21.59874725341797,
+    "x": 460.5139465332031,
+    "text": "What is the international market? Write its advantages",
+    "conf": 0.998,
+    "det": 0.99
+   },
+   {
+    "y": 65.69140625,
+    "x": 246.0347442626953,
+    "text": "and its disadvantages.",
+    "conf": 0.994,
+    "det": 0.991
+   },
+   {
+    "y": 103.9296875,
+    "x": 38.951393127441406,
+    "text": "Ans",
+    "conf": 0.998,
+    "det": 0.978
+   },
+   {
+    "y": 138.24609375,
+    "x": 349.5764465332031,
+    "text": "1. Introduction to the International Market",
+    "conf": 0.991,
+    "det": 0.991
+   },
+   {
+    "y": 211.78125,
+    "x": 460.02081298828125,
+    "text": "The international market refers to the exchange of goods,",
+    "conf": 0.998,
+    "det": 0.991
+   },
+   {
+    "y": 251.00001525878906,
+    "x": 434.38201904296875,
+    "text": "services, and resources across national borders. Unlike",
+    "conf": 0.995,
+    "det": 0.984
+   },
+   {
+    "y": 289.2382507324219,
+    "x": 459.0346984863281,
+    "text": "domestic marketing, which occurs within the confines of a",
+    "conf": 0.998,
+    "det": 0.988
+   },
+   {
+    "y": 328.45703125,
+    "x": 452.13189697265625,
+    "text": "single country, international marketing involves navigating",
+    "conf": 0.994,
+    "det": 0.988
+   },
+   {
+    "y": 366.6953125,
+    "x": 453.6111145019531,
+    "text": "diverse legal systems, cultural nuances, economic climates,",
+    "conf": 0.994,
+    "det": 0.988
+   },
+   {
+    "y": 406.89453125,
+    "x": 248.00701904296875,
+    "text": "and consumer behaviors.",
+    "conf": 0.997,
+    "det": 0.989
+   },
+   {
+    "y": 468.6640930175781,
+    "x": 447.69451904296875,
+    "text": "In a globalized world, the international market is not",
+    "conf": 0.995,
+    "det": 0.989
+   },
+   {
+    "y": 503.96099853515625,
+    "x": 449.6668395996094,
+    "text": "just an option for growth-it is often a necessity for",
+    "conf": 0.995,
+    "det": 0.984
+   },
+   {
+    "y": 537.787109375,
+    "x": 461.00909423828125,
+    "text": "survival. It allows companies to tap into a much larger",
+    "conf": 0.996,
+    "det": 0.985
+   },
+   {
+    "y": 572.103515625,
+    "x": 451.14739990234375,
+    "text": "customer base (the global population) rather than being",
+    "conf": 0.988,
+    "det": 0.986
+   },
+   {
+    "y": 605.9297485351562,
+    "x": 444.2430725097656,
+    "text": "limited by the saturation or economic downturns of a",
+    "conf": 0.997,
+    "det": 0.988
+   },
+   {
+    "y": 640.7362670898438,
+    "x": 441.2884216308594,
+    "text": "single home market. It encompasses various modes of",
+    "conf": 0.995,
+    "det": 0.989
+   },
+   {
+    "y": 676.033203125,
+    "x": 445.7223815917969,
+    "text": "entry, including exporting, licensing, franchising, joint",
+    "conf": 0.991,
+    "det": 0.992
+   },
+   {
+    "y": 711.330078125,
+    "x": 401.8403015136719,
+    "text": "ventures, and foreign direct investment (FDI).",
+    "conf": 0.984,
+    "det": 0.99
+   }
+  ],
+  "mean_conf": 0.995,
+  "words_expected": 126,
+  "words_recognised": 126,
+  "words_hit_verbatim": 126,
+  "word_recall": 1.0,
+  "page_cer": 0.0
+ },
+ "reference1.png": {
+  "boxes": 9,
+  "det_ms": 280,
+  "rec_ms": 447,
+  "total_ms": 784,
+  "lines": [
+   {
+    "y": 142.00001525878906,
+    "x": 474.54541015625,
+    "text": "AAAAaadaBBBbbbCCCcG",
+    "conf": 0.827,
+    "det": 0.988
+   },
+   {
+    "y": 227.33334350585938,
+    "x": 488.1817932128906,
+    "text": "DDD dad EEEeeefFFfff",
+    "conf": 0.752,
+    "det": 0.988
+   },
+   {
+    "y": 304.0390930175781,
+    "x": 495.8922119140625,
+    "text": "G bG g gg H H h hh II i il",
+    "conf": 0.795,
+    "det": 0.986
+   },
+   {
+    "y": 395.3333740234375,
+    "x": 498.40911865234375,
+    "text": "J JJ J Jj KkKRK LLEIle",
+    "conf": 0.675,
+    "det": 0.985
+   },
+   {
+    "y": 474.0,
+    "x": 508.6363525390625,
+    "text": "M MMm mm N NNn mn 0OO DO",
+    "conf": 0.677,
+    "det": 0.986
+   },
+   {
+    "y": 576.0546875,
+    "x": 506.8594055175781,
+    "text": "P PP  pp Q QQ q q2 RR",
+    "conf": 0.718,
+    "det": 0.987
+   },
+   {
+    "y": 683.3334350585938,
+    "x": 520.2273559570312,
+    "text": "S BSs ss T IT t tt Ullu",
+    "conf": 0.697,
+    "det": 0.987
+   },
+   {
+    "y": 801.3334350585938,
+    "x": 447.95458984375,
+    "text": "V Vv v vv W W w ww",
+    "conf": 0.74,
+    "det": 0.987
+   },
+   {
+    "y": 914.0420532226562,
+    "x": 526.7131958007812,
+    "text": "Xxx x yy ygy ZZ zz",
+    "conf": 0.673,
+    "det": 0.986
+   }
+  ],
+  "mean_conf": 0.729
+ }
+}

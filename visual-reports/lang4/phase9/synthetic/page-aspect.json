@@ -1,0 +1,107 @@
+{
+  "note": "SYNTHETIC: rectified width / height of an 1100 × 500 page (true ratio 2.2) seen by a pinhole camera; errPct = error of the ratio. method: camera = focal length measured from the corners; assumed-focal = tilted one way only, a 0.75 × long-edge focal length assumed; sides = seen straight on.",
+  "cases": [
+    {
+      "cam": {
+        "tiltX": 0
+      },
+      "status": "page",
+      "ratio": 2.214,
+      "errPct": 0.6,
+      "method": "sides"
+    },
+    {
+      "cam": {
+        "tiltX": 20
+      },
+      "status": "page",
+      "ratio": 2.202,
+      "errPct": 0.1,
+      "method": "assumed-focal"
+    },
+    {
+      "cam": {
+        "tiltX": 35
+      },
+      "status": "page",
+      "ratio": 2.205,
+      "errPct": 0.2,
+      "method": "assumed-focal"
+    },
+    {
+      "cam": {
+        "tiltX": 25,
+        "tiltY": 12,
+        "roll": 4
+      },
+      "status": "page",
+      "ratio": 2.202,
+      "errPct": 0.1,
+      "method": "camera"
+    },
+    {
+      "cam": {
+        "tiltX": -20,
+        "tiltY": -15,
+        "roll": -6
+      },
+      "status": "page",
+      "ratio": 2.205,
+      "errPct": 0.2,
+      "method": "camera"
+    },
+    {
+      "cam": {
+        "tiltX": 15,
+        "tiltY": 20,
+        "roll": 8
+      },
+      "status": "page",
+      "ratio": 2.203,
+      "errPct": 0.1,
+      "method": "camera"
+    },
+    {
+      "cam": {
+        "tiltX": 30,
+        "focal": 650
+      },
+      "status": "page",
+      "ratio": 1.925,
+      "errPct": 12.5,
+      "method": "assumed-focal"
+    },
+    {
+      "cam": {
+        "tiltX": 30,
+        "focal": 1300
+      },
+      "status": "page",
+      "ratio": 2.33,
+      "errPct": 5.9,
+      "method": "assumed-focal"
+    },
+    {
+      "cam": {
+        "tiltX": 30,
+        "tiltY": 10,
+        "focal": 650
+      },
+      "status": "page",
+      "ratio": 2.196,
+      "errPct": 0.2,
+      "method": "camera"
+    },
+    {
+      "cam": {
+        "tiltX": 30,
+        "tiltY": 10,
+        "focal": 1300
+      },
+      "status": "page",
+      "ratio": 2.201,
+      "errPct": 0.1,
+      "method": "camera"
+    }
+  ]
+}

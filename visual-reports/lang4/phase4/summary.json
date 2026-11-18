@@ -1,0 +1,222 @@
+{
+  "latin-clean": {
+    "ms": 352,
+    "alignMs": 46,
+    "words": {
+      "aligned": 17,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 69,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extraInk": 0,
+    "quality": 0.991,
+    "usable": true
+  },
+  "devanagari-clean": {
+    "ms": 283,
+    "alignMs": 26,
+    "words": {
+      "aligned": 16,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 28,
+      "ambiguous": 2,
+      "missing": 0,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extraInk": 0,
+    "quality": 0.991,
+    "usable": true
+  },
+  "mixed-clean": {
+    "ms": 247,
+    "alignMs": 16,
+    "words": {
+      "aligned": 9,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 35,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extraInk": 0,
+    "quality": 0.991,
+    "usable": true
+  },
+  "latin-touching-letters": {
+    "ms": 143,
+    "alignMs": 15,
+    "words": {
+      "aligned": 17,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 8,
+      "ambiguous": 61,
+      "missing": 0,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extraInk": 0,
+    "quality": 0.991,
+    "usable": true
+  },
+  "latin-missing-and-extra": {
+    "ms": 103,
+    "alignMs": 9,
+    "words": {
+      "aligned": 16,
+      "ambiguous": 0,
+      "missing": 1,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 66,
+      "ambiguous": 0,
+      "missing": 3,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extraInk": 1,
+    "quality": 0.991,
+    "usable": true
+  },
+  "latin-blurred": {
+    "ms": 116,
+    "alignMs": 8,
+    "words": {
+      "aligned": 17,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 4,
+      "ambiguous": 65,
+      "missing": 0,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extraInk": 0,
+    "quality": 0.978,
+    "usable": true
+  },
+  "latin-blurred-level2": {
+    "ms": 121,
+    "alignMs": 9,
+    "words": {
+      "aligned": 17,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 8,
+      "ambiguous": 61,
+      "missing": 0,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extraInk": 0,
+    "quality": 0.991,
+    "usable": true
+  },
+  "latin-low-contrast": {
+    "ms": 120,
+    "alignMs": 11,
+    "words": {
+      "aligned": 17,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 69,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extraInk": 0,
+    "quality": 0.991,
+    "usable": true
+  },
+  "hindi-matras-tight": {
+    "ms": 102,
+    "alignMs": 4,
+    "words": {
+      "aligned": 8,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 19,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extraInk": 0,
+    "quality": 0.992,
+    "usable": true
+  },
+  "devanagari-tight-clusters": {
+    "ms": 192,
+    "alignMs": 6,
+    "words": {
+      "aligned": 16,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 29,
+      "ambiguous": 1,
+      "missing": 0,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extraInk": 0,
+    "quality": 0.991,
+    "usable": true
+  },
+  "latin-unusable-faint": {
+    "ms": 59,
+    "alignMs": 2,
+    "words": {
+      "aligned": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 69,
+      "unsupported": 0
+    },
+    "extraInk": 0,
+    "quality": 0,
+    "usable": false
+  }
+}

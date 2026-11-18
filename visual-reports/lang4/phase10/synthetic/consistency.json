@@ -1,0 +1,179 @@
+{
+  "note": "SYNTHETIC profiles learned from synthetic pseudo-glyph pages. Rendered glyph metrics in x-heights (baseline 0); truth: x-height letters top 1, baseline 0, constant letter gap. before = Phase 9 placement; after = Phase 10. Variant choice is the Phase 10 one in both.",
+  "legacy": {
+    "before": {
+      "glyphs": 159,
+      "missing": 5,
+      "shortTop": {
+        "mean": 0.94,
+        "sd": 0.117,
+        "n": 62
+      },
+      "capTop": {
+        "mean": 1.081,
+        "sd": 0.163,
+        "n": 5
+      },
+      "ascTop": {
+        "mean": 1.57,
+        "sd": 0.231,
+        "n": 21
+      },
+      "baseline": {
+        "mean": 0.01,
+        "sd": 0.02,
+        "n": 83
+      },
+      "letterGap": {
+        "mean": 0.265,
+        "sd": 0.006,
+        "n": 91
+      },
+      "headline": {
+        "mean": 0.924,
+        "sd": 0.142,
+        "n": 35
+      },
+      "joins": 13,
+      "unjoined": 0,
+      "joinEndOffHeadline": {
+        "mean": 0.003,
+        "sd": 0.009,
+        "n": 26
+      },
+      "lines": 6,
+      "unsupported": "देतेकेंहिंदी"
+    },
+    "after": {
+      "glyphs": 159,
+      "missing": 5,
+      "shortTop": {
+        "mean": 0.984,
+        "sd": 0.021,
+        "n": 62
+      },
+      "capTop": {
+        "mean": 1.003,
+        "sd": 0.014,
+        "n": 5
+      },
+      "ascTop": {
+        "mean": 1.669,
+        "sd": 0.02,
+        "n": 21
+      },
+      "baseline": {
+        "mean": 0,
+        "sd": 0,
+        "n": 83
+      },
+      "letterGap": {
+        "mean": 0.265,
+        "sd": 0.006,
+        "n": 91
+      },
+      "headline": {
+        "mean": 1.014,
+        "sd": 0,
+        "n": 35
+      },
+      "joins": 15,
+      "unjoined": 0,
+      "joinEndOffHeadline": {
+        "mean": 0,
+        "sd": 0,
+        "n": 30
+      },
+      "lines": 6,
+      "unsupported": "देतेकेंहिंदी"
+    }
+  },
+  "fixed": {
+    "before": {
+      "glyphs": 159,
+      "missing": 5,
+      "shortTop": {
+        "mean": 0.992,
+        "sd": 0.019,
+        "n": 62
+      },
+      "capTop": {
+        "mean": 1.442,
+        "sd": 0.035,
+        "n": 5
+      },
+      "ascTop": {
+        "mean": 1.675,
+        "sd": 0.022,
+        "n": 21
+      },
+      "baseline": {
+        "mean": 0.012,
+        "sd": 0.023,
+        "n": 83
+      },
+      "letterGap": {
+        "mean": 0.266,
+        "sd": 0.005,
+        "n": 91
+      },
+      "headline": {
+        "mean": 0.924,
+        "sd": 0.142,
+        "n": 35
+      },
+      "joins": 13,
+      "unjoined": 0,
+      "joinEndOffHeadline": {
+        "mean": 0.003,
+        "sd": 0.009,
+        "n": 26
+      },
+      "lines": 6,
+      "unsupported": "देतेकेंहिंदी"
+    },
+    "after": {
+      "glyphs": 159,
+      "missing": 5,
+      "shortTop": {
+        "mean": 0.986,
+        "sd": 0.02,
+        "n": 62
+      },
+      "capTop": {
+        "mean": 1.435,
+        "sd": 0.021,
+        "n": 5
+      },
+      "ascTop": {
+        "mean": 1.661,
+        "sd": 0.03,
+        "n": 21
+      },
+      "baseline": {
+        "mean": 0,
+        "sd": 0,
+        "n": 83
+      },
+      "letterGap": {
+        "mean": 0.266,
+        "sd": 0.005,
+        "n": 91
+      },
+      "headline": {
+        "mean": 1.014,
+        "sd": 0,
+        "n": 35
+      },
+      "joins": 15,
+      "unjoined": 0,
+      "joinEndOffHeadline": {
+        "mean": 0,
+        "sd": 0,
+        "n": 30
+      },
+      "lines": 6,
+      "unsupported": "देतेकेंहिंदी"
+    }
+  }
+}

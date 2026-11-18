@@ -1,0 +1,48 @@
+{
+  "note": "Word-level ground truth for two REAL reference pages (reference/handwriting_03.png, reference/handwriting_02.png). Annotations only: no pixels. Each line gives its vertical centre and, per word in transcription order, the left and right ink extent, in ORIGINAL image pixels.",
+  "method": "Read off by eye from 1.5–1.6× enlarged strips with a 10-pixel ruler (Phase 14). Expected precision about ±4 px. Annotated by the assistant, not by an independent human; a disputed box should be re-read from the image.",
+  "pages": {
+    "handwriting_03.png": {
+      "lines": [
+        { "y": 24, "words": [["Q1.", 19, 59], ["What", 103, 164], ["is", 181, 199], ["the", 220, 256], ["international", 279, 427], ["market?", 449, 544], ["Write", 561, 619], ["its", 636, 664], ["advantages", 686, 819]] },
+        { "y": 65, "words": [["and", 103, 145], ["its", 167, 194], ["disadvantages.", 217, 397]] },
+        { "y": 103, "words": [["Ans", 19, 59]] },
+        { "y": 143, "words": [["1.", 84, 100], ["Introduction", 125, 256], ["to", 272, 297], ["the", 316, 350], ["International", 369, 516], ["Market", 537, 616]] },
+        { "y": 219, "words": [["The", 112, 150], ["international", 175, 306], ["market", 330, 403], ["refers", 425, 484], ["to", 506, 530], ["the", 550, 583], ["exchange", 600, 694], ["of", 712, 734], ["goods,", 747, 806]] },
+        { "y": 255, "words": [["services,", 101, 188], ["and", 209, 247], ["resources", 270, 366], ["across", 391, 453], ["national", 478, 566], ["borders.", 588, 684], ["Unlike", 700, 766]] },
+        { "y": 293, "words": [["domestic", 103, 194], ["marketing,", 216, 331], ["which", 350, 409], ["occurs", 428, 494], ["within", 516, 578], ["the", 600, 634], ["confines", 653, 734], ["of", 750, 778], ["a", 800, 816]] },
+        { "y": 331, "words": [["single", 103, 166], ["country,", 188, 275], ["international", 297, 431], ["marketing", 453, 559], ["involves", 584, 666], ["navigating", 691, 803]] },
+        { "y": 370, "words": [["diverse", 103, 178], ["legal", 200, 250], ["systems,", 269, 363], ["cultural", 381, 463], ["nuances,", 481, 572], ["economic", 594, 691], ["climates,", 709, 803]] },
+        { "y": 409, "words": [["and", 103, 144], ["consumer", 166, 263], ["behaviors.", 288, 397]] },
+        { "y": 473, "words": [["In", 109, 134], ["a", 156, 170], ["globalized", 191, 297], ["world,", 319, 388], ["the", 403, 438], ["international", 459, 591], ["market", 616, 694], ["is", 712, 731], ["not", 750, 788]] },
+        { "y": 510, "words": [["just", 109, 150], ["an", 175, 200], ["option", 225, 288], ["for", 309, 341], ["growth—it", 359, 472], ["is", 497, 513], ["often", 534, 591], ["a", 612, 625], ["necessity", 647, 738], ["for", 756, 794]] },
+        { "y": 546, "words": [["survival.", 109, 197], ["It", 222, 247], ["allows", 269, 334], ["companies", 359, 463], ["to", 488, 509], ["tap", 525, 556], ["into", 581, 625], ["a", 644, 656], ["much", 678, 731], ["larger", 747, 816]] },
+        { "y": 579, "words": [["customer", 109, 200], ["base", 222, 269], ["(the", 291, 334], ["global", 353, 416], ["population)", 438, 566], ["rather", 591, 656], ["than", 675, 719], ["being", 744, 797]] },
+        { "y": 612, "words": [["limited", 109, 181], ["by", 203, 228], ["the", 247, 278], ["saturation", 300, 406], ["or", 432, 454], ["economic", 476, 570], ["downturns", 592, 701], ["of", 723, 745], ["a", 761, 776]] },
+        { "y": 646, "words": [["single", 109, 169], ["home", 194, 247], ["market.", 270, 363], ["It", 369, 394], ["encompasses", 413, 545], ["various", 570, 645], ["modes", 670, 733], ["of", 745, 773]] },
+        { "y": 682, "words": [["entry,", 109, 175], ["including", 197, 294], ["exporting,", 322, 438], ["licensing,", 447, 567], ["franchising,", 584, 708], ["joint", 720, 783]] },
+        { "y": 716, "words": [["ventures,", 109, 200], ["and", 231, 272], ["foreign", 297, 372], ["direct", 394, 459], ["investment", 479, 598], ["(FDI).", 620, 695]] }
+      ]
+    },
+    "handwriting_02.png": {
+      "lines": [
+        { "y": 75, "words": [["Q1.", 87, 130], ["Why", 150, 183], ["it", 203, 220], ["is", 240, 257], ["important", 277, 373], ["for", 392, 420], ["business", 433, 510], ["enterprise", 527, 637], ["to", 657, 677], ["understand", 697, 817]] },
+        { "y": 115, "words": [["their", 147, 193], ["environment", 210, 343], ["?", 347, 360], ["Explain", 387, 467]] },
+        { "y": 155, "words": [["Ans", 87, 123], [":", 130, 137]] },
+        { "y": 203, "words": [["Understanding", 190, 327], ["the", 347, 380], ["business", 399, 477], ["environment", 497, 613], ["is", 627, 643], ["not", 667, 700], ["just", 717, 760], ["a", 780, 797]] },
+        { "y": 243, "words": [["theoretical", 155, 260], ["exercise;", 277, 367], ["it", 377, 390], ["is", 410, 427], ["a", 443, 460], ["fundamental", 487, 593], ["necessity", 613, 710], ["for", 723, 753], ["the", 777, 810]] },
+        { "y": 287, "words": [["survival", 153, 247], ["and", 263, 303], ["growth", 323, 393], ["of", 413, 433], ["any", 453, 490], ["enterprise.", 510, 623], ["The", 640, 673], ["environment", 693, 813]] },
+        { "y": 328, "words": [["consists", 153, 233], ["of", 253, 277], ["all", 307, 333], ["external", 357, 440], ["forces", 460, 517], ["—", 527, 543], ["economic,", 550, 660], ["social,", 677, 747], ["legal,", 763, 820]] },
+        { "y": 370, "words": [["technological,", 152, 293], ["and", 310, 350], ["political", 368, 450], ["—", 457, 473], ["that", 479, 527], ["influence", 547, 633], ["a", 653, 667], ["business", 685, 763], ["but", 777, 813]] },
+        { "y": 408, "words": [["are", 152, 187], ["outside", 203, 273], ["its", 287, 313], ["direct", 340, 400], ["control.", 420, 500]] },
+        { "y": 450, "words": [["Here", 177, 220], ["is", 237, 253], ["why", 273, 313], ["it", 330, 343], ["is", 363, 380], ["critical", 407, 480], ["for", 493, 527], ["a", 543, 560], ["business", 577, 657], ["to", 673, 693], ["understand", 710, 820]] },
+        { "y": 492, "words": [["these", 148, 197], ["factors", 213, 287], [":", 293, 300]] },
+        { "y": 537, "words": [["1.", 90, 110], ["Identifying", 137, 247], ["Opportunities", 267, 393], ["and", 410, 443], ["Getting", 460, 533], ["the", 550, 583], ["First-Mover", 600, 707], ["Advantage", 717, 833]] },
+        { "y": 580, "words": [["A", 160, 173], ["business", 200, 277], ["that", 303, 347], ["is", 367, 383], ["aware", 407, 460], ["of", 480, 503], ["its", 527, 553], ["environment", 577, 703], ["can", 723, 760], ["spot", 780, 820]] },
+        { "y": 623, "words": [["favorable", 145, 237], ["trends", 253, 307], ["early.", 323, 383], ["By", 400, 427], ["recognizing", 447, 590], ["these", 610, 660], ["opportunities", 677, 800]] },
+        { "y": 665, "words": [["before", 145, 207], ["competitors,", 227, 343], ["an", 363, 390], ["enterprise", 413, 520], ["can", 547, 577], ["launch", 597, 673], ["new", 690, 723], ["products", 733, 813]] },
+        { "y": 705, "words": [["or", 145, 167], ["services", 187, 260], ["first,", 273, 333], ["capturing", 347, 460], ["a", 479, 493], ["larger", 517, 590], ["market", 603, 667], ["share.", 683, 750]] }
+      ]
+    }
+  }
+}

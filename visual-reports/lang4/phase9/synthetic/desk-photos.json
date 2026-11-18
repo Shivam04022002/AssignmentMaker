@@ -1,0 +1,451 @@
+{
+  "note": "SYNTHETIC pages (geometric pseudo-glyphs) photographed in code on a cluttered desk; scored against the fixture truth mapped through the photo and the rectification. before = Phase 8 (no page detection, orientation checks or rule-foot restoration); both include the Phase 9 punctuation guard in alignment. wrong = aligned unit not on its true letter.",
+  "cases": {
+    "desk": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 38,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 35,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 1213
+      },
+      "after": {
+        "page": "page",
+        "aligned": 105,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 101,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 1006
+      }
+    },
+    "deskLap": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 2,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 0,
+        "usable": true,
+        "errors": [],
+        "warnings": [
+          "uneven-lighting"
+        ],
+        "ms": 1237
+      },
+      "after": {
+        "page": "page",
+        "aligned": 105,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 101,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 819
+      }
+    },
+    "deskKeysOnPage": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 4,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 3,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 860
+      },
+      "after": {
+        "page": "page",
+        "aligned": 105,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 101,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 781
+      }
+    },
+    "deskLight": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 2,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 0,
+        "usable": true,
+        "errors": [],
+        "warnings": [
+          "uneven-lighting"
+        ],
+        "ms": 742
+      },
+      "after": {
+        "page": "page",
+        "aligned": 105,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 102,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 638
+      }
+    },
+    "deskSteep": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 8,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 1,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 729
+      },
+      "after": {
+        "page": "page",
+        "aligned": 102,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 97,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 484
+      }
+    },
+    "deskPale": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 66,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 59,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 668
+      },
+      "after": {
+        "page": "page",
+        "aligned": 105,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 101,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 688
+      }
+    },
+    "deskTiltOneWay": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 49,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 42,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 791
+      },
+      "after": {
+        "page": "page",
+        "aligned": 103,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 100,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 505
+      }
+    },
+    "deskTrapezoid": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 31,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 27,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 789
+      },
+      "after": {
+        "page": "page",
+        "aligned": 105,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 100,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 880
+      }
+    },
+    "deskNotebook": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 7,
+        "of": 105,
+        "wrong": 1,
+        "extracted": 4,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 748
+      },
+      "after": {
+        "page": "page",
+        "aligned": 105,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 102,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 772
+      }
+    },
+    "deskNotebookSteep": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 0,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 0,
+        "usable": true,
+        "errors": [],
+        "warnings": [
+          "uneven-lighting"
+        ],
+        "ms": 744
+      },
+      "after": {
+        "page": "page",
+        "aligned": 96,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 89,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 481
+      }
+    },
+    "deskHindi": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 0,
+        "of": 19,
+        "wrong": 0,
+        "extracted": 0,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 701
+      },
+      "after": {
+        "page": "page",
+        "aligned": 19,
+        "of": 19,
+        "wrong": 0,
+        "extracted": 19,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 563
+      }
+    },
+    "deskHindiSteep": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 1,
+        "of": 19,
+        "wrong": 0,
+        "extracted": 0,
+        "usable": true,
+        "errors": [],
+        "warnings": [
+          "too-little-writing"
+        ],
+        "ms": 851
+      },
+      "after": {
+        "page": "page",
+        "aligned": 19,
+        "of": 19,
+        "wrong": 0,
+        "extracted": 18,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 408
+      }
+    },
+    "deskGradient": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 54,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 44,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 633
+      },
+      "after": {
+        "page": "page",
+        "aligned": 105,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 101,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 546
+      }
+    },
+    "deskGradientExtreme": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 56,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 46,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 617
+      },
+      "after": {
+        "page": "full-frame",
+        "aligned": 56,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 46,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 945
+      }
+    },
+    "deskSmall": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 7,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 5,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 595
+      },
+      "after": {
+        "page": "page",
+        "aligned": 45,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 18,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 578
+      }
+    },
+    "twoSheets": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 38,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 35,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 712
+      },
+      "after": {
+        "page": "unclear",
+        "aligned": 0,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 0,
+        "usable": false,
+        "errors": [
+          "page-unclear"
+        ],
+        "warnings": [],
+        "ms": 840
+      }
+    },
+    "deskSideways": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 0,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 0,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 905
+      },
+      "after": {
+        "page": "page",
+        "aligned": 0,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 0,
+        "usable": false,
+        "errors": [
+          "sideways"
+        ],
+        "warnings": [],
+        "ms": 855
+      }
+    },
+    "deskUpsideDown": {
+      "before": {
+        "page": "full-frame",
+        "aligned": 0,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 0,
+        "usable": true,
+        "errors": [],
+        "warnings": [],
+        "ms": 692
+      },
+      "after": {
+        "page": "page",
+        "aligned": 0,
+        "of": 105,
+        "wrong": 0,
+        "extracted": 0,
+        "usable": false,
+        "errors": [
+          "upside-down"
+        ],
+        "warnings": [],
+        "ms": 619
+      }
+    }
+  }
+}

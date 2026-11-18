@@ -1,0 +1,14 @@
+{
+  "name": "handwrite-samples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HandWrite's in-app native image input for handwriting samples: picks a photo, keeps a temporary copy in the app cache, and decodes it on-device to an orientation-corrected, downsampled grayscale raster for analysis. No network access.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "android",
+    "ios",
+    "handwrite-samples.podspec"
+  ],
+  "license": "UNLICENSED"
+}

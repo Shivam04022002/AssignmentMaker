@@ -1,0 +1,210 @@
+{
+  "print, small (x-height 10, pen 2.6)": {
+    "before": {
+      "units": 26,
+      "extracted": 7,
+      "defective": [],
+      "meanCompleteness": 1,
+      "rejected": {
+        "neighbour-uncertain": 5,
+        "not-aligned": 11,
+        "trace-unfaithful": 3
+      }
+    },
+    "after": {
+      "units": 26,
+      "extracted": 3,
+      "defective": [],
+      "meanCompleteness": 0.968,
+      "rejected": {
+        "counter-unresolved": 7,
+        "neighbour-uncertain": 5,
+        "not-aligned": 11
+      }
+    }
+  },
+  "print, small, ruled notebook": {
+    "before": {
+      "units": 26,
+      "extracted": 0,
+      "defective": [],
+      "meanCompleteness": 0,
+      "rejected": {
+        "not-aligned": 26
+      }
+    },
+    "after": {
+      "units": 26,
+      "extracted": 0,
+      "defective": [],
+      "meanCompleteness": 0,
+      "rejected": {
+        "not-aligned": 26
+      }
+    }
+  },
+  "print, small, pale rules": {
+    "before": {
+      "units": 26,
+      "extracted": 0,
+      "defective": [],
+      "meanCompleteness": 0,
+      "rejected": {
+        "not-aligned": 26
+      }
+    },
+    "after": {
+      "units": 26,
+      "extracted": 0,
+      "defective": [],
+      "meanCompleteness": 0,
+      "rejected": {
+        "not-aligned": 26
+      }
+    }
+  },
+  "print, ruled notebook (x-height 16)": {
+    "before": {
+      "units": 26,
+      "extracted": 14,
+      "defective": [
+        "a(c0.98 x0.12)",
+        "a(c0.82 x0.00)"
+      ],
+      "meanCompleteness": 0.981,
+      "rejected": {
+        "trace-unfaithful": 12
+      }
+    },
+    "after": {
+      "units": 26,
+      "extracted": 11,
+      "defective": [],
+      "meanCompleteness": 1,
+      "rejected": {
+        "counter-unresolved": 15
+      }
+    }
+  },
+  "print, ruled notebook (x-height 20)": {
+    "before": {
+      "units": 26,
+      "extracted": 21,
+      "defective": [],
+      "meanCompleteness": 0.993,
+      "rejected": {
+        "trace-unfaithful": 5
+      }
+    },
+    "after": {
+      "units": 26,
+      "extracted": 21,
+      "defective": [],
+      "meanCompleteness": 0.993,
+      "rejected": {
+        "counter-unresolved": 5
+      }
+    }
+  },
+  "print, pale rules (x-height 20)": {
+    "before": {
+      "units": 26,
+      "extracted": 21,
+      "defective": [],
+      "meanCompleteness": 0.996,
+      "rejected": {
+        "trace-unfaithful": 5
+      }
+    },
+    "after": {
+      "units": 26,
+      "extracted": 21,
+      "defective": [],
+      "meanCompleteness": 0.996,
+      "rejected": {
+        "counter-unresolved": 5
+      }
+    }
+  },
+  "print, mixed sizes": {
+    "before": {
+      "units": 24,
+      "extracted": 17,
+      "defective": [
+        "e(c0.87 x0.00)"
+      ],
+      "meanCompleteness": 0.99,
+      "rejected": {
+        "not-aligned": 4,
+        "trace-unfaithful": 3
+      }
+    },
+    "after": {
+      "units": 24,
+      "extracted": 9,
+      "defective": [],
+      "meanCompleteness": 1,
+      "rejected": {
+        "not-aligned": 4,
+        "counter-unresolved": 11
+      }
+    }
+  },
+  "print, mixed sizes (x-height 20)": {
+    "before": {
+      "units": 24,
+      "extracted": 23,
+      "defective": [],
+      "meanCompleteness": 0.994,
+      "rejected": {
+        "trace-unfaithful": 1
+      }
+    },
+    "after": {
+      "units": 24,
+      "extracted": 23,
+      "defective": [],
+      "meanCompleteness": 0.998,
+      "rejected": {
+        "counter-unresolved": 1
+      }
+    }
+  },
+  "print, touching letters": {
+    "before": {
+      "units": 26,
+      "extracted": 2,
+      "defective": [],
+      "meanCompleteness": 0.992,
+      "rejected": {
+        "not-aligned": 24
+      }
+    },
+    "after": {
+      "units": 26,
+      "extracted": 0,
+      "defective": [],
+      "meanCompleteness": 0,
+      "rejected": {
+        "counter-unresolved": 2,
+        "not-aligned": 24
+      }
+    }
+  },
+  "print, regular size (x-height 26)": {
+    "before": {
+      "units": 26,
+      "extracted": 26,
+      "defective": [],
+      "meanCompleteness": 1,
+      "rejected": {}
+    },
+    "after": {
+      "units": 26,
+      "extracted": 26,
+      "defective": [],
+      "meanCompleteness": 1,
+      "rejected": {}
+    }
+  }
+}

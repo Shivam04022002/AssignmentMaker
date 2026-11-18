@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "set": "2026-11-english-w1",
+  "note": "Metadata only. Transcriptions are in truth/<id>.txt (transcriptionFile); images in images/. Nothing here leaves this PC.",
+  "samples": [
+    {
+      "id": "w1-print-alphabet",
+      "file": "images/w1-print-alphabet.png",
+      "slot": 1,
+      "scripts": ["Latn"],
+      "category": "english-print",
+      "writer": "w1",
+      "page": "latin-alphabet",
+      "transcriptionFile": "truth/w1-print-alphabet.txt",
+      "truth": "truth/w1-print-alphabet.words.json",
+      "cuts": null,
+      "original": { "width": 4032, "height": 3024 },
+      "device": "phone main camera, JPEG",
+      "capture": { "lighting": "even", "paper": "ruled", "writingSize": "normal", "skewDeg": 0, "perspective": false },
+      "provenance": { "source": "writer w1, own handwriting, photographed on 2026-11-20 in daylight", "consent": true }
+    },
+    {
+      "id": "w2-hindi-matras",
+      "file": "images/w2-hindi-matras.png",
+      "slot": 6,
+      "scripts": ["Deva"],
+      "category": "hindi-matras-conjuncts",
+      "writer": "w2",
+      "page": "free",
+      "transcriptionFile": "truth/w2-hindi-matras.txt",
+      "original": { "width": 4000, "height": 3000 },
+      "capture": { "lighting": "even", "paper": "plain", "writingSize": "normal", "skewDeg": 1, "perspective": false },
+      "provenance": { "source": "writer w2, own handwriting, photographed on 2026-11-21 under a desk lamp", "consent": true }
+    }
+  ]
+}

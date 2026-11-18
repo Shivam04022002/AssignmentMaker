@@ -1,0 +1,85 @@
+{
+  "handwriting_03.png": {
+    "quality": 0.956,
+    "usable": true,
+    "issues": [],
+    "lines": 18,
+    "words": {
+      "aligned": 63,
+      "ambiguous": 58,
+      "missing": 5,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 219,
+      "ambiguous": 497,
+      "missing": 35,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extracted": 133,
+    "considered": 751,
+    "rejected": {
+      "not-aligned": 532,
+      "neighbour-uncertain": 76,
+      "trace-unfaithful": 9,
+      "outside-band": 1
+    },
+    "faintLinePixelsRemoved": 5823
+  },
+  "handwriting_02.png": {
+    "quality": 0.947,
+    "usable": true,
+    "issues": [
+      "too-small"
+    ],
+    "lines": 18,
+    "words": {
+      "aligned": 55,
+      "ambiguous": 60,
+      "missing": 4,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 0,
+      "ambiguous": 636,
+      "missing": 22,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extracted": 0,
+    "considered": 658,
+    "rejected": {
+      "not-aligned": 658
+    },
+    "faintLinePixelsRemoved": 3431
+  },
+  "handwriting_01.png": {
+    "quality": 0.95,
+    "usable": false,
+    "issues": [
+      "too-small",
+      "too-small"
+    ],
+    "lines": 21,
+    "words": {
+      "aligned": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 126
+    },
+    "units": {
+      "aligned": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 685,
+      "unsupported": 0
+    },
+    "extracted": 0,
+    "considered": 685,
+    "rejected": {
+      "image-unusable": 685
+    },
+    "faintLinePixelsRemoved": 5458
+  }
+}

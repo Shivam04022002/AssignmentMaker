@@ -1,0 +1,76 @@
+{
+  "latin-ruled-skewed-noisy": {
+    "ms": 1072,
+    "timings": {
+      "normalise": 101,
+      "threshold": 194,
+      "deskew": 90,
+      "rules": 357,
+      "segment": 105,
+      "quality": 224
+    },
+    "lines": 6,
+    "words": 30,
+    "rules": 17,
+    "headlines": 0,
+    "quality": 0.99,
+    "usable": true,
+    "issues": []
+  },
+  "devanagari-ruled": {
+    "ms": 1030,
+    "timings": {
+      "normalise": 65,
+      "threshold": 147,
+      "deskew": 52,
+      "rules": 421,
+      "segment": 184,
+      "quality": 161
+    },
+    "lines": 6,
+    "words": 30,
+    "rules": 17,
+    "headlines": 6,
+    "quality": 0.99,
+    "usable": true,
+    "issues": []
+  },
+  "mixed-unruled": {
+    "ms": 995,
+    "timings": {
+      "normalise": 93,
+      "threshold": 143,
+      "deskew": 71,
+      "rules": 319,
+      "segment": 200,
+      "quality": 168
+    },
+    "lines": 6,
+    "words": 30,
+    "rules": 0,
+    "headlines": 3,
+    "quality": 0.987,
+    "usable": true,
+    "issues": []
+  },
+  "blank-page": {
+    "ms": 648,
+    "timings": {
+      "normalise": 68,
+      "threshold": 103,
+      "deskew": 7,
+      "rules": 330,
+      "segment": 19,
+      "quality": 121
+    },
+    "lines": 0,
+    "words": 0,
+    "rules": 0,
+    "headlines": 0,
+    "quality": 0,
+    "usable": false,
+    "issues": [
+      "too-little-writing"
+    ]
+  }
+}

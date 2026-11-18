@@ -1,0 +1,182 @@
+{
+  "reference1.png": {
+    "quality": 0.989,
+    "usable": true,
+    "issues": [
+      "rotated"
+    ],
+    "lines": 9,
+    "words": null,
+    "units": null,
+    "extracted": 0,
+    "considered": 0,
+    "rejected": {},
+    "faintLinePixelsRemoved": 0,
+    "ruleInkRestoredPixels": 0,
+    "page": {
+      "status": "page",
+      "corners": [
+        [
+          127.521,
+          80.151
+        ],
+        [
+          796.417,
+          68.072
+        ],
+        [
+          934.645,
+          1067.138
+        ],
+        [
+          78.388,
+          1106.823
+        ]
+      ],
+      "rectifiedSize": {
+        "width": 843,
+        "height": 1205
+      },
+      "reasons": []
+    },
+    "orientation": {
+      "status": "across",
+      "acrossShare": 0.989,
+      "turned": null
+    }
+  },
+  "handwriting_03.png": {
+    "quality": 0.956,
+    "usable": true,
+    "issues": [],
+    "lines": 18,
+    "words": {
+      "aligned": 63,
+      "ambiguous": 58,
+      "missing": 5,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 219,
+      "ambiguous": 497,
+      "missing": 35,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extracted": 133,
+    "considered": 751,
+    "rejected": {
+      "not-aligned": 532,
+      "neighbour-uncertain": 76,
+      "trace-unfaithful": 9,
+      "outside-band": 1
+    },
+    "faintLinePixelsRemoved": 5823,
+    "ruleInkRestoredPixels": 1,
+    "page": {
+      "status": "full-frame",
+      "corners": null,
+      "rectifiedSize": null,
+      "reasons": [
+        "the page fills the photo"
+      ]
+    },
+    "orientation": {
+      "status": "across",
+      "acrossShare": 0.973,
+      "turned": {
+        "none": 219,
+        "half": 0
+      }
+    }
+  },
+  "handwriting_02.png": {
+    "quality": 0.948,
+    "usable": true,
+    "issues": [
+      "too-small"
+    ],
+    "lines": 18,
+    "words": {
+      "aligned": 55,
+      "ambiguous": 59,
+      "missing": 5,
+      "lowQuality": 0
+    },
+    "units": {
+      "aligned": 0,
+      "ambiguous": 619,
+      "missing": 39,
+      "lowQuality": 0,
+      "unsupported": 0
+    },
+    "extracted": 0,
+    "considered": 658,
+    "rejected": {
+      "not-aligned": 658
+    },
+    "faintLinePixelsRemoved": 3431,
+    "ruleInkRestoredPixels": 107,
+    "page": {
+      "status": "full-frame",
+      "corners": null,
+      "rectifiedSize": null,
+      "reasons": [
+        "the page fills the photo"
+      ]
+    },
+    "orientation": {
+      "status": "across",
+      "acrossShare": 0.742,
+      "turned": {
+        "none": 0,
+        "half": 0
+      }
+    }
+  },
+  "handwriting_01.png": {
+    "quality": 0.95,
+    "usable": false,
+    "issues": [
+      "too-small",
+      "too-small"
+    ],
+    "lines": 21,
+    "words": {
+      "aligned": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 126
+    },
+    "units": {
+      "aligned": 0,
+      "ambiguous": 0,
+      "missing": 0,
+      "lowQuality": 685,
+      "unsupported": 0
+    },
+    "extracted": 0,
+    "considered": 685,
+    "rejected": {
+      "image-unusable": 685
+    },
+    "faintLinePixelsRemoved": 5458,
+    "ruleInkRestoredPixels": 0,
+    "page": {
+      "status": "full-frame",
+      "corners": null,
+      "rectifiedSize": null,
+      "reasons": [
+        "the page fills the photo"
+      ]
+    },
+    "orientation": {
+      "status": "across",
+      "acrossShare": 0.71,
+      "turned": {
+        "none": 0,
+        "half": 0
+      }
+    }
+  }
+}

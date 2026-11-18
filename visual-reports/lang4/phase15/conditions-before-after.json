@@ -1,0 +1,193 @@
+{
+ "rows": [
+  [
+   "handwriting_03",
+   "clean",
+   "62/0 ()",
+   "62/0 ()",
+   "1.000→1.000",
+   "0.492→0.492",
+   "136→136",
+   "same"
+  ],
+  [
+   "handwriting_03",
+   "uneven light (45 % falloff)",
+   "62/0 ()",
+   "62/0 ()",
+   "1.000→1.000",
+   "0.492→0.492",
+   "71→71",
+   "same"
+  ],
+  [
+   "handwriting_03",
+   "dim, low contrast",
+   "68/0 ()",
+   "68/0 ()",
+   "1.000→1.000",
+   "0.540→0.540",
+   "191→191",
+   "same"
+  ],
+  [
+   "handwriting_03",
+   "shadow band",
+   "0/0 ()",
+   "0/0 ()",
+   "-→-",
+   "0.000→0.000",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_03",
+   "skew 4°",
+   "59/0 ()",
+   "59/0 ()",
+   "1.000→1.000",
+   "0.468→0.468",
+   "98→98",
+   "same"
+  ],
+  [
+   "handwriting_03",
+   "skew −7°",
+   "60/2 (Q1.,advantages)",
+   "60/0 ()",
+   "0.968→1.000",
+   "0.476→0.476",
+   "98→98",
+   "same"
+  ],
+  [
+   "handwriting_03",
+   "perspective on a desk (tilt 25°)",
+   "38/0 ()",
+   "38/0 ()",
+   "1.000→1.000",
+   "0.302→0.302",
+   "102→102",
+   "same"
+  ],
+  [
+   "handwriting_03",
+   "smaller writing (×0.75)",
+   "0/0 ()",
+   "0/0 ()",
+   "-→-",
+   "0.000→0.000",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_03",
+   "small writing (×0.6)",
+   "0/0 ()",
+   "0/0 ()",
+   "-→-",
+   "0.000→0.000",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_02",
+   "clean",
+   "67/1 (Q1.)",
+   "68/0 ()",
+   "0.985→1.000",
+   "0.563→0.571",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_02",
+   "uneven light (45 % falloff)",
+   "67/1 (Q1.)",
+   "68/0 ()",
+   "0.985→1.000",
+   "0.563→0.571",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_02",
+   "dim, low contrast",
+   "96/1 (By)",
+   "96/0 ()",
+   "0.990→1.000",
+   "0.807→0.807",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_02",
+   "shadow band",
+   "0/0 ()",
+   "0/0 ()",
+   "-→-",
+   "0.000→0.000",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_02",
+   "skew 4°",
+   "63/1 (Q1.)",
+   "65/0 ()",
+   "0.984→1.000",
+   "0.529→0.546",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_02",
+   "skew −7°",
+   "59/0 ()",
+   "59/0 ()",
+   "1.000→1.000",
+   "0.496→0.496",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_02",
+   "perspective on a desk (tilt 25°)",
+   "76/1 (By)",
+   "76/1 (By)",
+   "0.987→0.987",
+   "0.639→0.639",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_02",
+   "smaller writing (×0.75)",
+   "0/0 ()",
+   "0/0 ()",
+   "-→-",
+   "0.000→0.000",
+   "0→0",
+   "same"
+  ],
+  [
+   "handwriting_02",
+   "small writing (×0.6)",
+   "0/0 ()",
+   "0/0 ()",
+   "-→-",
+   "0.000→0.000",
+   "0→0",
+   "same"
+  ]
+ ],
+ "before": {
+  "r": 777,
+  "w": 7
+ },
+ "after": {
+  "r": 781,
+  "w": 1
+ },
+ "note": "REAL pages (handwriting_03, handwriting_02) under SIMULATED conditions, scored against hand-annotated word boxes. Columns: page | condition | before right/wrong (false matches) | after right/wrong | aligned precision before→after | coverage (right ÷ truth words) before→after | glyphs extracted before→after | rejection reasons (same = identical to Phase 14). before = Phase 14 code, after = Phase 15."
+}

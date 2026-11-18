@@ -1,0 +1,258 @@
+{
+ "handwriting_03": {
+  "quality": {
+   "usable": true,
+   "score": 0.951,
+   "issues": []
+  },
+  "segmentation": {
+   "lines": 18,
+   "expectedLines": 18,
+   "words": 135,
+   "medianXHeight": 12,
+   "headlines": 0
+  },
+  "skew": {
+   "angle": 0.6,
+   "confidence": 0.49966293024428365,
+   "method": "projection-profile",
+   "points": 31721,
+   "applied": true
+  },
+  "alignment": {
+   "expectedWords": 126,
+   "expectedUnits": 751,
+   "words": {
+    "aligned": 62,
+    "ambiguous": 58,
+    "missing": 6,
+    "lowQuality": 0
+   },
+   "units": {
+    "aligned": 221,
+    "ambiguous": 489,
+    "missing": 41,
+    "lowQuality": 0,
+    "unsupported": 0
+   },
+   "extraInk": 8
+  },
+  "unitStates": {
+   "ambiguous": 489,
+   "missing": 41,
+   "aligned": 221
+  },
+  "rejections": {
+   "not-aligned": 530,
+   "metrics-inconsistent": 1,
+   "neighbour-uncertain": 74,
+   "counter-unresolved": 8,
+   "outside-band": 2
+  },
+  "inAlignedWords": {
+   "units": 355,
+   "aligned": 221,
+   "boundaryMedian": 0.675,
+   "boundaryP25": 0.537,
+   "alignmentMedian": 0.806,
+   "belowBoundaryOk": 21,
+   "belowAlignmentOk": 5
+  },
+  "topAmbiguousReasons": [
+   [
+    "touches a neighbour (boundary at a thin joining stroke)",
+    72
+   ],
+   [
+    "its cuts are far from where the text’s letter widths place them (posit",
+    71
+   ],
+   [
+    "line: may contain more than one line (lines touch)",
+    18
+   ],
+   [
+    "line: separated from a neighbouring line at a shallow valley",
+    4
+   ],
+   [
+    "no visible boundary inside “h—”: these # units share one region",
+    2
+   ]
+  ],
+  "extracted": {
+   "considered": 751,
+   "extracted": 136,
+   "rejected": {
+    "not-aligned": 530,
+    "metrics-inconsistent": 1,
+    "neighbour-uncertain": 74,
+    "counter-unresolved": 8,
+    "outside-band": 2
+   }
+  }
+ },
+ "handwriting_02": {
+  "quality": {
+   "usable": true,
+   "score": 0.948,
+   "issues": [
+    "too-small"
+   ]
+  },
+  "segmentation": {
+   "lines": 18,
+   "expectedLines": 16,
+   "words": 138,
+   "medianXHeight": 9,
+   "headlines": 0
+  },
+  "skew": {
+   "angle": -1.2,
+   "confidence": 0.6726981442251603,
+   "method": "projection-profile",
+   "points": 52970,
+   "applied": true
+  },
+  "alignment": {
+   "expectedWords": 119,
+   "expectedUnits": 658,
+   "words": {
+    "aligned": 68,
+    "ambiguous": 45,
+    "missing": 6,
+    "lowQuality": 0
+   },
+   "units": {
+    "aligned": 0,
+    "ambiguous": 611,
+    "missing": 47,
+    "lowQuality": 0,
+    "unsupported": 0
+   },
+   "extraInk": 34
+  },
+  "unitStates": {
+   "ambiguous": 611,
+   "missing": 47
+  },
+  "rejections": {
+   "not-aligned": 658
+  },
+  "inAlignedWords": {
+   "units": 349,
+   "aligned": 0,
+   "boundaryMedian": 0.181,
+   "boundaryP25": 0.174,
+   "alignmentMedian": 0.709,
+   "belowBoundaryOk": 349,
+   "belowAlignmentOk": 20
+  },
+  "topAmbiguousReasons": [
+   [
+    "image: The writing is small in the photo#",
+    349
+   ],
+   [
+    "touches a neighbour (boundary at a thin joining stroke)",
+    332
+   ],
+   [
+    "a small mark at the word’s start was left out: too small and flat for ",
+    16
+   ],
+   [
+    "a small mark at the word’s end was left out: too small and flat for th",
+    12
+   ],
+   [
+    "no visible boundary inside “ta”: these # units share one region",
+    4
+   ],
+   [
+    "no visible boundary inside “fo”: these # units share one region",
+    4
+   ],
+   [
+    "its cuts are far from where the text’s letter widths place them (posit",
+    3
+   ],
+   [
+    "no visible boundary inside “pp”: these # units share one region",
+    2
+   ]
+  ],
+  "extracted": {
+   "considered": 658,
+   "extracted": 0,
+   "rejected": {
+    "not-aligned": 658
+   }
+  }
+ },
+ "handwriting_01": {
+  "quality": {
+   "usable": false,
+   "score": 0.95,
+   "issues": [
+    "too-small",
+    "too-small"
+   ]
+  },
+  "segmentation": {
+   "lines": 21,
+   "expectedLines": 18,
+   "words": 121,
+   "medianXHeight": 9,
+   "headlines": 2
+  },
+  "skew": {
+   "angle": -0.2,
+   "confidence": 0.6350293289522264,
+   "method": "projection-profile",
+   "points": 37027,
+   "applied": false
+  },
+  "alignment": {
+   "expectedWords": 126,
+   "expectedUnits": 685,
+   "words": {
+    "aligned": 0,
+    "ambiguous": 0,
+    "missing": 0,
+    "lowQuality": 126
+   },
+   "units": {
+    "aligned": 0,
+    "ambiguous": 0,
+    "missing": 0,
+    "lowQuality": 685,
+    "unsupported": 0
+   },
+   "extraInk": 33
+  },
+  "unitStates": {
+   "low-quality": 685
+  },
+  "rejections": {
+   "image-unusable": 685
+  },
+  "inAlignedWords": {
+   "units": 0,
+   "aligned": 0,
+   "boundaryMedian": null,
+   "boundaryP25": null,
+   "alignmentMedian": null,
+   "belowBoundaryOk": 0,
+   "belowAlignmentOk": 0
+  },
+  "topAmbiguousReasons": [],
+  "extracted": {
+   "considered": 685,
+   "extracted": 0,
+   "rejected": {
+    "image-unusable": 685
+   }
+  }
+ }
+}

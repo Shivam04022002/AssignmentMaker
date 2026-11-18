@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Debug builds only: the Metro dev server (JS bundle, fast refresh, the
+         dev tuner's reference images) is reached over the network. Release
+         builds have no network permission; see src/main/AndroidManifest.xml. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
